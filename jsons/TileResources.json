@@ -1,0 +1,4 @@
+[
+    {"name": "Wheat", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"production": 1}, "terrainsCanBeFoundOn": ["Grassland"],},
+    {"name": "Cattle", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Grassland"],},
+]
