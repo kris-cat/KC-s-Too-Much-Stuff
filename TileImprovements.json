@@ -1,0 +1,69 @@
+[
+     // Unbuildable Improvements
+    {
+		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable",]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
+            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
+		],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+    //Standard Improvements
+     {
+		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland",],
+		"food": 1,"turnsToBuild": 3,"techRequired": "Agriculture",
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
+            "Pillaging this improvement yields approximately [+25 Gold]",
+			"Cannot be built on [Water] tiles",
+		],
+		"shortcutKey": "F"
+	},
+    {
+		"name": "Plantation","turnsToBuild": 5,"gold": 1,"techRequired": "Irrigation",
+		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",
+		"Cannot be built on [Water] tiles",],
+		"shortcutKey": "P"
+	},
+    {
+		"name": "Camp","food": 1,"turnsToBuild": 5,"techRequired": "Hunting",
+		"uniques": [
+            "Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+		],
+		"shortcutKey": "C"
+	},
+    {
+		"name": "Pasture","production": 1,"turnsToBuild": 5,"techRequired": "Animal Husbandry",
+		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Mine","production": 1,"turnsToBuild": 3,"techRequired": "Mining",
+		"uniques": ["Can only be built to improve a resource", 
+			"Pillaging this improvement yields approximately [+20 Gold]",
+		],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Quarry","production": 2,"turnsToBuild": 5,"techRequired": "Masonry",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]",],
+		"shortcutKey": "Q"
+	},
+]
+    
