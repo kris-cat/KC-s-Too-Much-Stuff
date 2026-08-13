@@ -42,6 +42,10 @@
 		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]",],
 	},
 	{
+		"name": "Walls","cityStrength": 5,"cityHealth": 50,"hurryCostModifier": 25,"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
 		"name": "Stone Works","happiness": 1,"production": 1,"maintenance": 1,"hurryCostModifier": 0,"requiredTech": "Masonry",
 		"requiredNearbyImprovedResources": ["Stone"],
 		"uniques": ["[+1 Production] from [Stone] tiles [in this city]",],
