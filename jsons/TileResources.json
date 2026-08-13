@@ -1,6 +1,7 @@
 [
     {"name": "Wheat", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"production": 1}, "terrainsCanBeFoundOn": ["Grassland"],},
     {"name": "Cattle", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Grassland"],},
+	//{"name": "Deer", "resourceType": "Bonus","improvement": "Camp", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Grassland"],},
     {"name": "Olives", "resourceType": "Bonus","improvement": "Plantation", "improvementStats": {"food": 1,}, "terrainsCanBeFoundOn": ["Grassland",],},
     {"name": "Stone", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Grassland",],},
 
