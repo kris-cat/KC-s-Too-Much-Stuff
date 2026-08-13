@@ -11,6 +11,8 @@
         "Rebel units may spawn <when below [-20] [Happiness]>",
         "[-1] Sight <for [Embarked] units>",
         "[+1 Production] per [2] population [in this city]",
+
+        "[+1 Happiness] per [1] population [in this city]",
     ],
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
