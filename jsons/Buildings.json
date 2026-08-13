@@ -1,0 +1,39 @@
+[
+    //Palace Buildings
+    {
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 2,
+		"gold": 3,
+		"culture": 2,
+		"cityStrength": 2.5,
+		"cost": 0,
+		"uniques": [
+			"Indicates the capital city",
+		]
+	},
+    //Ancient Era Buildings
+    {
+		"name": "Potter","production": 1,"gold": 1,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Pottery",
+		"uniques": [],
+	},
+    {
+		"name": "Cellar","food": 2,"percentStatBonus": {"food": 5},"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Pottery",
+		"uniques": [],
+	},
+    {
+		"name": "Granary","maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Agriculture",
+        "requiredNearbyImprovedResources": ["Wheat"],
+		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]",],
+	},
+    {
+		"name": "Smokehouse","maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hunting",
+        "requiredNearbyImprovedResources": ["Deer"],
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",],
+	},
+    {
+		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Mining",
+		"uniques": []
+	},
+]
