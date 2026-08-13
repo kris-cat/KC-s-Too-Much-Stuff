@@ -65,6 +65,6 @@
 	},
 	{
 		"name": "Barracks","production": 1,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Bronze Working",
-		"uniques": ["[+15]% Production when constructing [{Land} {Military}] units [in this city]",],
+		"uniques": ["[+10]% Production when constructing [{Land} {Military}] units [in this city]",],
 	},
 ]
