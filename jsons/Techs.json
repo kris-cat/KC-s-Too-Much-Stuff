@@ -72,7 +72,7 @@
 				"name": "Horseback Riding","row": 6,"prerequisites": ["Animal Husbandry"],
 			},
             {
-				"name": "Craftsmanship","row": 7,"prerequisites": ["The Wheel","Bronze Working"],
+				"name": "Craftsmanship","row": 8,"prerequisites": ["The Wheel","Bronze Working"],
 			},
 		]
     },
