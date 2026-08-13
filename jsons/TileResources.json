@@ -8,7 +8,7 @@
     {
 		"name": "Copper", "resourceType": "Strategic","improvement": "Mine","improvementStats": {"gold": 1},
 		"terrainsCanBeFoundOn": ["Grassland"],
-		"uniques": ["Guaranteed with Strategic Balance resource option",],
+		"uniques": ["Guaranteed with Strategic Balance resource option"],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 ]
