@@ -36,4 +36,35 @@
 		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Mining",
 		"uniques": []
 	},
+	 {
+		"name": "Barn","maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Animal Husbandry",
+        "requiredNearbyImprovedResources": ["Cattle"],
+		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]",],
+	},
+	{
+		"name": "Stone Works","happiness": 1,"production": 1,"maintenance": 1,"hurryCostModifier": 0,"requiredTech": "Masonry",
+		"requiredNearbyImprovedResources": ["Stone"],
+		"uniques": ["[+1 Production] from [Stone] tiles [in this city]",],
+	},
+	{
+		"name": "Shrine","faith": 1,"cost": 40,"maintenance": 1,"requiredTech": "Calendar",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Library","hurryCostModifier": 25,"maintenance": 1,"requiredTech": "Writing"
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+	},
+	{
+		"name": "Town Square","gold": 4,"cost": 40,"hurryCostModifier": 40,"requiredTech": "The Wheel",
+		"uniques": [],
+	},
+	{
+		"name": "Smelter","production": 2,"percentStatBonus": {"production": 5},"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Bronze Working",
+		"requiredNearbyImprovedResources": ["Copper"],
+		"uniques": ["[+1 Production] from [Copper] tiles [in this city]",],
+	},
+	{
+		"name": "Barracks","production": 1,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Bronze Working",
+		"uniques": ["[+15]% Production when constructing [{Land} {Military}] units [in this city]",],
+	},
 ]
