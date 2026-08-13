@@ -11,7 +11,12 @@
 		"defeated": "The day...is yours. I hope you will be merciful in your triumph.","introduction": "The people of the United States of America welcome you.",
 		"neutralHello": "Good day.","hateHello": "Well?","tradeRequest": "Is the following trade of interest to you?",
 		"outerColor": [ 28,51,119],"innerColor": [255,255,255],"uniqueName": "American Nation Abilities",
-		"uniques": ["Comment [Nation Ability: American Exceptionalism]",
+		"uniques": [
+			"Starts with [Fishing]",
+			"Starts with [Agriculture]",
+			"Comment []",
+			"Comment [Nation Ability: American Exceptionalism]",
+			"Comment []",
             "Comment [Leader Ability: Bull Moose President]",
 		],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
@@ -22,6 +27,29 @@
 			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
+	 {
+		"name": "China","leaderName": "Qin Shi Huang","adjective": ["Chinese"],"startBias": ["Grassland","Subtropical"],"preferredVictoryType": "Domination",
+        "startIntroPart1": "Heaven itself bends before your beauty, Empress Wu Zetian, ruler of eternal China! You lead one of the oldest and greatest civilization of humanity. In your time, China stood at the forefront of science and technology, bringing the world such contributions as gunpowder, the printing press, and the world of Confucius, and this, long before the rest of the world was mature enough to make the same discoveries!",
+		"startIntroPart2": "Great Queen, can you make China prevail again, using your divine intelligence and beauty? China stands for greatness, and all its enemies will be dazzled soon enough! Will your new empire shine through the ages of history?",
+		"declaringWar": "You won't ever be able to bother me again. Go meet Yama.","attacked": "Fool! I will disembowel you all!","defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
+		"introduction": "Greetings, I am Empress Wu Zetian. China desires peace and development. You leave us alone, we'll leave you alone.","neutralHello": "How are you today?","hateHello": "Oh. It's you?","tradeRequest": "My friend, do you think you can accept this request?",
+        "outerColor": [9, 112, 84],"innerColor": [255,255,255],"uniqueName": "Chinese Nation Abilities",
+		"uniques": [
+			"Starts with [Pottery]",
+			"Starts with [Agriculture]",
+			"Comment []",
+			"Comment [Nation Ability: Middle Kingdom]",
+			"Comment []",
+			"Comment [Leader Ability: Pax Romana]",
+		],
+		"cities": [
+			"Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong","Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi","Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"
+		],
+		"spyNames": [
+			"Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"
+		]
+	},
 	{
 		"name": "Inca","leaderName": "Pachacuti","adjective": ["Incan"],"startBias": ["Grassland"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
@@ -30,7 +58,12 @@
 		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.","introduction": "How are you? You stand before Pachacuti Inca Yupanqui.",
 		"neutralHello": "How are you doing?","hateHello": "What do you want now?","tradeRequest": "The Incan people offer this fair trade.",
         "outerColor": [123,61,0],"innerColor": [255,191,0],"uniqueName": "Incan Nation Abilities",
-		"uniques": ["Comment [Nation Ability: Mit’a]",
+		"uniques": [
+			"Starts with [Agriculture]",
+			"Starts with [Mining]",
+			"Comment []",
+			"Comment [Nation Ability: Mit’a]",
+			"Comment []",
 			"Comment [Leader Ability: Pachakutic]",
 		],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
