@@ -1,0 +1,48 @@
+[
+    //Ancient Era
+	{
+        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 50,"wonderCost": 185,"techs": 
+        [
+            {
+                "name": "Fishing","row": 1,
+				"uniques": ["Enables embarkation for land units"]
+			},
+            {
+                "name": "Pottery","row": 3,
+				"uniques": []
+			},
+            {
+                "name": "Agriculture","row":5,
+				"uniques": []
+			},
+            {
+                "name": "Hunting","row": 7,
+				"uniques": []
+			},
+            {
+                "name": "Mining","row": 9,
+				"uniques": []
+			},
+		]
+    },
+    {
+        "columnNumber": 1,"era": "Ancient Era","techCost": 25,"buildingCost": 75,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Sailing","row": 2,"prerequisites": ["Fishing","Pottery"],
+			},
+            {
+				"name": "Irrigation","row": 4,"prerequisites": ["Pottery","Agriculture"],
+			},
+            {
+				"name": "Animal Husbandry","row": 6,"prerequisites": ["Agriculture","Hunting"],
+			},
+			{
+				"name": "Carpentry","row": 7,"prerequisites": ["Mining"],
+			},
+			{
+				"name": "Masonry","row": 9,"prerequisites": ["Mining"],
+			},
+		]
+    },
+]
