@@ -35,12 +35,6 @@
 		"shortcutKey": "F"
 	},
     {
-		"name": "Plantation","turnsToBuild": 5,"gold": 1,
-		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",
-		"Cannot be built on [Water] tiles",],
-		"shortcutKey": "P"
-	},
-    {
 		"name": "Camp","food": 1,"turnsToBuild": 5,"techRequired": "Hunting",
 		"uniques": [
             "Can only be built to improve a resource",
@@ -59,11 +53,6 @@
 			"Pillaging this improvement yields approximately [+20 Gold]",
 		],
 		"shortcutKey": "M"
-	},
-	{
-		"name": "Quarry","production": 2,"turnsToBuild": 5,
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]",],
-		"shortcutKey": "Q"
 	},
 ]
     
