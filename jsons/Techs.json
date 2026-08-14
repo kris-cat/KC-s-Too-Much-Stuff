@@ -53,6 +53,14 @@
         "columnNumber": 2,"era": "Ancient Era","techCost": 35,"buildingCost": 50,"wonderCost": 185,"techs": 
         [
 			{
+                "name": "Calendar","row": 1,"prerequisites": ["Sailing","Irrigation"],
+				"uniques": []
+			},
+			{
+                "name": "Writing","row": 3,"prerequisites": ["Irrigation"],
+				"uniques": []
+			},
+			{
                 "name": "The Wheel","row": 7,"prerequisites": ["Animal Husbandry","Carpentry"],
 				"uniques": []
 			},
