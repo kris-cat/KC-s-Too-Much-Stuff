@@ -1,7 +1,7 @@
 [
     //Ancient Era
 	{
-        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 50,"wonderCost": 185,"techs": 
+        "columnNumber": 0,"era": "Ancient Era","techCost": 20,"buildingCost": 50,"wonderCost": 185,"techs": 
         [
             {
                 "name": "Fishing","row": 1,
@@ -24,6 +24,19 @@
 			},
             {
                 "name": "Mining","row": 11,
+				"uniques": []
+			},
+		]
+    },
+	{
+        "columnNumber": 1,"era": "Ancient Era","techCost": 35,"buildingCost": 50,"wonderCost": 185,"techs": 
+        [
+            {
+                "name": "Sailing","row": 1,"prerequisites": ["Fishing"],
+				"uniques": []
+			},
+			{
+                "name": "Animal Husbandry","row": 6,"prerequisites": ["Agriculture","Hunting"],
 				"uniques": []
 			},
 		]
