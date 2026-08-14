@@ -49,4 +49,17 @@
 			},
 		]
     },
+	{
+        "columnNumber": 2,"era": "Ancient Era","techCost": 35,"buildingCost": 50,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "The Wheel","row": 7,"prerequisites": ["Animal Husbandry","Carpentry"],
+				"uniques": []
+			},
+			{
+                "name": "Bronze Working","row": 11,"prerequisites": ["Mining"],
+				"uniques": []
+			},
+		]
+    },
 ]
