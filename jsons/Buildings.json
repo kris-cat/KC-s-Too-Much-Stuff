@@ -14,6 +14,7 @@
 		]
 	},
     //Ancient Era Buildings
+	//Column 1//
     {
 		"name": "Potter","production": 1,"gold": 1,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Pottery",
 		"uniques": [],
