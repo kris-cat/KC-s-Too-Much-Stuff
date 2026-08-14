@@ -36,7 +36,15 @@
 				"uniques": []
 			},
 			{
+                "name": "Irrigation","row": 3,"prerequisites": ["Pottery","Agriculture"],
+				"uniques": []
+			},
+			{
                 "name": "Animal Husbandry","row": 6,"prerequisites": ["Agriculture","Hunting"],
+				"uniques": []
+			},
+			{
+                "name": "Masonry","row": 10,"prerequisites": ["Carpentry","Mining"],
 				"uniques": []
 			},
 		]
