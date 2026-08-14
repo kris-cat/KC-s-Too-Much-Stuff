@@ -19,60 +19,12 @@
                 "name": "Hunting","row": 7,
 				"uniques": []
 			},
+			{
+				"name": "Carpentry","row": 9,
+			},
             {
-                "name": "Mining","row": 9,
+                "name": "Mining","row": 11,
 				"uniques": []
-			},
-		]
-    },
-    {
-        "columnNumber": 1,"era": "Ancient Era","techCost": 25,"buildingCost": 60,"wonderCost": 185,"techs": 
-        [
-			{
-				"name": "Sailing","row": 2,"prerequisites": ["Fishing","Pottery"],
-			},
-            {
-				"name": "Irrigation","row": 4,"prerequisites": ["Pottery","Agriculture"],
-			},
-            {
-				"name": "Animal Husbandry","row": 6,"prerequisites": ["Agriculture","Hunting"],
-			},
-			{
-				"name": "Carpentry","row": 7,"prerequisites": ["Mining"],
-			},
-			{
-				"name": "Masonry","row": 9,"prerequisites": ["Mining"],
-			},
-		]
-    },
-	{
-        "columnNumber": 2,"era": "Ancient Era","techCost": 25,"buildingCost": 60,"wonderCost": 185,"techs": 
-        [
-			{
-				"name": "Calendar","row": 3,"prerequisites": ["Pottery",],
-			},
-            {
-				"name": "Writing","row": 4,"prerequisites": ["Irrigation"],
-			},
-            {
-				"name": "The Wheel","row": 7,"prerequisites": ["Animal Husbandry","Carpentry"],
-			},
-			{
-				"name": "Bronze Working","row": 8,"prerequisites": ["Carpentry","Masonry"],
-			},
-		]
-    },
-	{
-        "columnNumber": 3,"era": "Ancient Era","techCost": 25,"buildingCost": 80,"wonderCost": 185,"techs": 
-        [
-			{
-				"name": "Mathematics","row": 3,"prerequisites": ["Calendar","Writing"],
-			},
-            {
-				"name": "Horseback Riding","row": 6,"prerequisites": ["Animal Husbandry"],
-			},
-            {
-				"name": "Craftsmanship","row": 8,"prerequisites": ["The Wheel","Bronze Working"],
 			},
 		]
     },
