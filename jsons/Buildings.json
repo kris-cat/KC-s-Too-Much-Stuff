@@ -49,8 +49,20 @@
 		"uniques": ["Must be next to [Coast]","[+1 Food] from [Fish] tiles [in this city]",],
 	},
 	{
+		"name": "Garden","happiness": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Irrigation",
+		"uniques": ["Must be next to [Fresh Water]"],
+	},
+	{
 		"name": "Barn","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Animal Husbandry",
         "requiredNearbyImprovedResources": ["Cattle"],
 		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]",],
+	},
+	{
+		"name": "Walls","cityStrength": 3,"cityHealth": 35,"hurryCostModifier": 25,"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Cistern","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Masonry",
+		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
 	},
 ]
