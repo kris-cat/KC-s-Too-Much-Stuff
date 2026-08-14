@@ -26,7 +26,7 @@
     //Standard Improvements
      {
 		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland",],
-		"food": 1,"turnsToBuild": 3,"techRequired": "Agriculture",
+		"food": 1,"turnsToBuild": 5,"techRequired": "Agriculture",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
             "Pillaging this improvement yields approximately [+25 Gold]",
@@ -35,12 +35,18 @@
 		"shortcutKey": "F"
 	},
     {
-		"name": "Camp","food": 1,"turnsToBuild": 5,"techRequired": "Hunting",
+		"name": "Camp","food": 1,"turnsToBuild": 7,"techRequired": "Hunting",
 		"uniques": [
             "Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]",
 		],
 		"shortcutKey": "C"
+	},
+	{
+		"name": "Lumber camp","terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,"turnsToBuild": 7,"techRequired": "Carpentry",
+		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "L"
 	},
     {
 		"name": "Pasture","production": 1,"turnsToBuild": 5,
@@ -48,7 +54,7 @@
 		"shortcutKey": "P"
 	},
 	{
-		"name": "Mine","production": 1,"turnsToBuild": 3,"techRequired": "Mining",
+		"name": "Mine","production": 1,"turnsToBuild": 7,"techRequired": "Mining",
 		"uniques": ["Can only be built to improve a resource", 
 			"Pillaging this improvement yields approximately [+20 Gold]",
 		],
