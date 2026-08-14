@@ -54,17 +54,23 @@
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "L"
 	},
-    {
-		"name": "Pasture","production": 1,"turnsToBuild": 5,"techRequired": "Animal Husbandry",
-		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",],
-		"shortcutKey": "P"
-	},
 	{
 		"name": "Mine","production": 1,"turnsToBuild": 7,"techRequired": "Mining",
 		"uniques": ["Can only be built to improve a resource", 
 			"Pillaging this improvement yields approximately [+20 Gold]",
 		],
 		"shortcutKey": "M"
+	},
+	{
+		"name": "Plantation","turnsToBuild": 7,"gold": 1,"techRequired": "Irrigation",
+		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",
+		"Cannot be built on [Water] tiles",],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Pasture","production": 1,"turnsToBuild": 5,"techRequired": "Animal Husbandry",
+		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",],
+		"shortcutKey": "P"
 	},
 ]
     
