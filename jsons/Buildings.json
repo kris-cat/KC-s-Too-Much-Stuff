@@ -65,4 +65,26 @@
 		"name": "Cistern","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Masonry",
 		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
 	},
+	//Column 2//
+	{
+		"name": "Shrine","faith": 2,"cost": 40,"maintenance": 1,"requiredTech": "Calendar",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Library","hurryCostModifier": 25,"maintenance": 1,"requiredTech": "Writing"
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+	},
+	{
+		"name": "Town Square","gold": 2,"production": 1,"hurryCostModifier": 25,"requiredTech": "The Wheel"
+		"uniques": [],
+	},
+	{
+		"name": "Inn","happiness": 1,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "The Wheel",
+		"uniques": [],
+	},
+	{
+		"name": "Milling Stone","food": 3,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "The Wheel",
+        "requiredNearbyImprovedResources": ["Wheat"],
+		"uniques": [],
+	},
 ]
