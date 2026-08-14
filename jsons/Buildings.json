@@ -14,7 +14,12 @@
 		]
 	},
     //Ancient Era Buildings
-	//Column 1//
+	//Column 0//
+	{
+		"name": "Smokehouse","maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Fishing",
+        "requiredNearbyImprovedResources": ["Fish","Deer"],
+		"uniques": ["[+1 Food] from [Fish] tiles [in this city]","[+1 Food] from [Deer] tiles [in this city]",],
+	},
     {
 		"name": "Potter","production": 1,"gold": 1,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Pottery",
 		"uniques": [],
@@ -29,12 +34,18 @@
 		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]",],
 	},
     {
-		"name": "Smokehouse","maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hunting",
+		"name": "Tannery","production": 1,"gold": 1,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hunting",
         "requiredNearbyImprovedResources": ["Deer"],
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",],
+		"uniques": ["[+1 Gold] from [Deer] tiles [in this city]",],
 	},
     {
 		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Mining",
 		"uniques": []
+	},
+	//Column 1//
+	{
+		"name": "Fishing Dock","maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Sailing",
+        "requiredNearbyImprovedResources": ["Fish"],
+		"uniques": ["Must be next to [Coast]","[+1 Food] from [Fish] tiles [in this city]",],
 	},
 ]
