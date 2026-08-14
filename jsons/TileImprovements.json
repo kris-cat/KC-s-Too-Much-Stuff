@@ -24,7 +24,13 @@
 		]
 	},
     //Standard Improvements
-     {
+	{
+		"name": "Fishing Boats","terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,"turnsToBuild": 5, "techRequired": "Fishing",
+		"uniques": ["Can only be built to improve a resource"],
+		"shortcutKey": "F"
+	},
+    {
 		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland",],
 		"food": 1,"turnsToBuild": 5,"techRequired": "Agriculture",
 		"uniques": [
@@ -43,7 +49,7 @@
 		"shortcutKey": "C"
 	},
 	{
-		"name": "Lumber camp","terrainsCanBeBuiltOn": ["Forest"],
+		"name": "Lumber Camp","terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,"turnsToBuild": 7,"techRequired": "Carpentry",
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "L"
