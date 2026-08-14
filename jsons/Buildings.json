@@ -44,8 +44,13 @@
 	},
 	//Column 1//
 	{
-		"name": "Fishing Dock","maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Sailing",
+		"name": "Fishing Dock","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Sailing",
         "requiredNearbyImprovedResources": ["Fish"],
 		"uniques": ["Must be next to [Coast]","[+1 Food] from [Fish] tiles [in this city]",],
+	},
+	{
+		"name": "Barn","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Animal Husbandry",
+        "requiredNearbyImprovedResources": ["Cattle"],
+		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]",],
 	},
 ]
