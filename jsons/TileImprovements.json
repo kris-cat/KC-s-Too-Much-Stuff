@@ -77,5 +77,10 @@
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "Q"
 	},
+	{
+		"name": "Terrace farm","food": 1,"turnsToBuild": 7,"terrainsCanBeBuiltOn": ["Hill"],"techRequired": "Bronze Working",
+		"uniques": ["[+1 Food] <in tiles adjacent to [Mountain] tiles>","Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "F"
+	},
 ]
     
