@@ -55,9 +55,9 @@
 		"shortcutKey": "L"
 	},
 	{
-		"name": "Mine","production": 1,"turnsToBuild": 7,"techRequired": "Mining",
-		"uniques": ["Can only be built to improve a resource", 
-			"Pillaging this improvement yields approximately [+20 Gold]",
+		"name": "Mine","terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,"turnsToBuild": 7,"techRequired": "Mining",
+		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]",
 		],
 		"shortcutKey": "M"
 	},
@@ -71,6 +71,11 @@
 		"name": "Pasture","production": 1,"turnsToBuild": 5,"techRequired": "Animal Husbandry",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",],
 		"shortcutKey": "P"
+	},
+	{
+		"name": "Quarry","production": 2,"turnsToBuild": 5,"techRequired": "Masonry",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]",],
+		"shortcutKey": "Q"
 	},
 ]
     
