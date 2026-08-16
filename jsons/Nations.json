@@ -94,7 +94,7 @@
         "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
     },
 	{
-		"name": "Inca","leaderName": "Pachacuti","adjective": ["Incan"],"startBias": ["Grassland"],"preferredVictoryType": "Domination",
+		"name": "Inca","leaderName": "Pachacuti","adjective": ["Incan"],"startBias": ["Hill","Mountain"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
         "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
         "declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Incan empire. If you will not surrender immediately, then prepare for war!","attacked": "Declare war on me?!? You can't, because I declare war on you first!",
