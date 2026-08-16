@@ -1,14 +1,14 @@
 [
     {
-         "name": "Civilian",
+         "name": "Civilian Unit",
          "movementType": "Land"
     },
     {
-         "name": "Civilian Water",
+         "name": "Civilian Water Unit",
          "movementType": "Water"
     },
     {
-        "name": "Scouting",
+        "name": "Scouting Unit",
         "movementType": "Land"
     },
     {
