@@ -5,7 +5,7 @@
         [
             {
                 "name": "Fishing","row": 1,
-				"uniques": ["Enables embarkation for land units"]
+				"uniques": []
 			},
             {
                 "name": "Pottery","row": 3,
@@ -33,7 +33,7 @@
         [
             {
                 "name": "Sailing","row": 1,"prerequisites": ["Fishing"],
-				"uniques": []
+				"uniques": ["Enables embarkation for land units"]
 			},
 			{
                 "name": "Irrigation","row": 3,"prerequisites": ["Pottery","Agriculture"],
@@ -61,7 +61,7 @@
 			},
 			{
                 "name": "Writing","row": 3,"prerequisites": ["Irrigation"],
-				"uniques": []
+				"uniques": ["Enables establishment of embassies <Civilopedia link [Tutorials/Embassies]>"]
 			},
 			{
                 "name": "The Wheel","row": 7,"uniques": ["Unavailable <before discovering [Pottery]> <before discovering [Carpentry]> <hidden from users>"]
@@ -81,7 +81,7 @@
         [
 			{
                 "name": "Mathematics","row": 3,"prerequisites": ["Writing"],
-				"uniques": []
+				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements"]
 			},
 			{
                 "name": "Horseback Riding","row": 6,"prerequisites": ["Animal Husbandry"],
