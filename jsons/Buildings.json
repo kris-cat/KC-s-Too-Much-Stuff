@@ -15,28 +15,10 @@
 	},
     //Ancient Era Buildings
 	//Column 0//
-	{
-		"name": "Smokehouse","cost": 40,"hurryCostModifier": 40,"requiredTech": "Fishing",
-        "requiredNearbyImprovedResources": ["Fish","Deer"],
-		"uniques": ["[+1 Food] from [Fish] tiles [in this city]","[+1 Food] from [Deer] tiles [in this city]",],
-	},
-    {
-		"name": "Potter","production": 1,"gold": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Pottery",
-		"uniques": [],
-	},
-    {
-		"name": "Cellar","food": 2,"percentStatBonus": {"food": 5},"cost": 40,"hurryCostModifier": 40,"requiredTech": "Pottery",
-		"uniques": [],
-	},
     {
 		"name": "Granary","cost": 40,"hurryCostModifier": 40,"requiredTech": "Agriculture",
         "requiredNearbyImprovedResources": ["Wheat"],
 		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]",],
-	},
-    {
-		"name": "Tannery","production": 1,"gold": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hunting",
-        "requiredNearbyImprovedResources": ["Deer"],
-		"uniques": ["Provides [1] [Furs]","[+1 Gold] from [Deer] tiles [in this city]",],
 	},
     {
 		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Mining",
@@ -44,18 +26,8 @@
 	},
 	//Column 1//
 	{
-		"name": "Fishing Dock","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Sailing",
-        "requiredNearbyImprovedResources": ["Fish"],
-		"uniques": ["Must be next to [Coast]","[+1 Food] from [Fish] tiles [in this city]",],
-	},
-	{
 		"name": "Garden","happiness": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Irrigation",
 		"uniques": ["Must be next to [Fresh Water]"],
-	},
-	{
-		"name": "Barn","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Animal Husbandry",
-        "requiredNearbyImprovedResources": ["Cattle"],
-		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]",],
 	},
 	{
 		"name": "Walls","cityStrength": 3,"cityHealth": 35,"hurryCostModifier": 25,"requiredTech": "Masonry",
@@ -73,18 +45,5 @@
 	{
 		"name": "Library","hurryCostModifier": 25,"maintenance": 1,"requiredTech": "Writing"
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
-	},
-	{
-		"name": "Town Square","gold": 2,"production": 1,"percentStatBonus": {"gold": 10},"hurryCostModifier": 25,"requiredTech": "The Wheel"
-		"uniques": [],
-	},
-	{
-		"name": "Inn","happiness": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "The Wheel",
-		"uniques": [],
-	},
-	{
-		"name": "Miller","food": 2,"gold": 2,"hurryCostModifier": 40,"requiredTech": "The Wheel",
-        "requiredNearbyImprovedResources": ["Wheat"],
-		"uniques": [],
 	},
 ]
