@@ -53,16 +53,22 @@
         "columnNumber": 2,"era": "Ancient Era","techCost": 35,"buildingCost": 50,"wonderCost": 185,"techs": 
         [
 			{
-                "name": "Calendar","row": 1,"prerequisites": ["Sailing","Irrigation"],
-				"uniques": []
+                "name": "Calendar","row": 1,"uniques": ["Unavailable <before discovering [Sailing]> <before discovering [Irrigation]> <hidden from users>"]
+				"civilopediaText": [
+					{"text": "Requires Sailing","link": "Technologies/Sailing"},
+					{"text": "or Irrigation","link": "Technologies/Irrigation"}
+				],
 			},
 			{
                 "name": "Writing","row": 3,"prerequisites": ["Irrigation"],
 				"uniques": []
 			},
 			{
-                "name": "The Wheel","row": 7,"prerequisites": ["Animal Husbandry","Carpentry"],
-				"uniques": []
+                "name": "The Wheel","row": 7,"uniques": ["Unavailable <before discovering [Pottery]> <before discovering [Carpentry]> <hidden from users>"]
+				"civilopediaText": [
+					{"text": "Requires Pottery","link": "Technologies/Pottery"},
+					{"text": "or Carpentry","link": "Technologies/Carpentry"}
+				],
 			},
 			{
                 "name": "Bronze Working","row": 11,"prerequisites": ["Mining"],
