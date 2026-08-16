@@ -107,7 +107,7 @@
 			"Comment []",
 			"Comment [Nation Ability: Mit’a]",
 			"Free [Worker] appears <upon founding a city> <hidden from users>","Free [Worker] appears <upon conquering a city> <hidden from users>",
-			"Comment [Free [Worker appears upon founding or conquest of a city]]",
+			"Comment [Free [Worker] appears upon founding or conquest of a city]","Comment [[Terrace farm]s gain +1 [Food] for every adjacent mountain]",
 			"Comment [Leader Ability: Pachakutic]",
 		],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
