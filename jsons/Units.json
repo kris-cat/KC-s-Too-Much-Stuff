@@ -30,7 +30,7 @@
 		"attackSound": "nonmetalhit",
 	},
 	{
-		"name": "Slinger","unitType": "Short Ranged Unit","movement": 2,"range": 1,"strength": 7,"rangedStrength": 6,"cost": 35,
+		"name": "Slinger","unitType": "Short Ranged Unit","movement": 2,"range": 1,"strength": 7,"rangedStrength": 7,"cost": 35,
 		"uniques": [],
 		"attackSound": "nonmetalhit",
 	},
