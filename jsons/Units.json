@@ -2,7 +2,7 @@
 	//Civilian
 	{
 		"name": "Worker",
-		"unitType": "Civilian",
+		"unitType": "Civilian Unit",
 		"movement": 2,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
@@ -11,21 +11,46 @@
 	},
 	{
 		"name": "Work Boats",
-		"unitType": "Civilian Water",
+		"unitType": "Civilian Water Unit",
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Fishing",
 		"uniques": ["May create improvements on water resources","Uncapturable", "Automation is a primary action"]
 	},
     {
-		"name": "Settler","unitType": "Civilian","movement": 2,"cost": 100,
+		"name": "Settler","unitType": "Civilian Unit","movement": 2,"cost": 100,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population","[-1] population [in this city]"],
 		"hurryCostModifier": 20
 	},
     // Ancient Era Land Units
     {
-		"name": "Warrior","unitType": "Land Melee","movement": 2,"strength": 10,"cost": 40,
+		"name": "Warrior","unitType": "Frontline Unit","movement": 2,"strength": 10,"cost": 40,
+		"uniques": [],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Slinger","unitType": "Short Ranged Unit","movement": 2,"range": 1,"strength": 5,"rangedStrength": 5,"cost": 35,
+		"uniques": [],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Scout","unitType": "Scouting Unit","movement": 2,"strength": 5,"cost": 25,"Hunting",
+		"uniques": ["Ignores terrain cost"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Archer","unitType": "Long Ranged Unit","movement": 2,"range": 2,"strength": 7,"rangedStrength": 7,"cost": 40,"requiredTech": "Carpentry",
+		"uniques": [],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Battering Ram","unitType": "Siege Unit","movement": 2,"strength": 10,"cost": 50,"requiredTech": "Masonry",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","[-1] Sight", "Can only attack [City] units"],
+		"attackSound": "nonmetalhit",
+	}
+	{
+		"name": "Spearman","unitType": "Anti-Mobile Unit","movement": 2,"strength": 10,"cost": 50,"requiredTech": "Bronze Working",
 		"uniques": [],
 		"attackSound": "nonmetalhit",
 	}
