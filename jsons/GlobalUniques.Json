@@ -10,7 +10,6 @@
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-20] [Happiness]>",
         "[-1] Sight <for [Embarked] units>",
-        "[+100]% Food consumption by [Population] [in all cities]",
     ],
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
