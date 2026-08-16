@@ -36,7 +36,7 @@
     {
 		"name": "Tannery","production": 1,"gold": 1,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hunting",
         "requiredNearbyImprovedResources": ["Deer"],
-		"uniques": ["Provides [1] [Fur]","[+1 Gold] from [Deer] tiles [in this city]",],
+		"uniques": ["Provides [1] [Furs]","[+1 Gold] from [Deer] tiles [in this city]",],
 	},
     {
 		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Mining",
