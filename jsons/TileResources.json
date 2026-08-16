@@ -6,10 +6,10 @@
     {"name": "Olives", "resourceType": "Bonus","improvement": "Plantation", "improvementStats": {"food": 1}, "terrainsCanBeFoundOn": ["Grassland",],},
     {"name": "Stone", "resourceType": "Bonus","improvement": "Mine", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Grassland",],},
 
-	{"name": "Cotton", "resourceType": "Luxury","improvement": "Plantation", "improvementStats": {"gold": 2}, "terrainsCanBeFoundOn": ["Grasslands"],"uniques": []},
+	{"name": "Cotton", "resourceType": "Luxury","improvement": "Plantation", "improvementStats": {"gold": 2}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": []},
 	{"name": "Gems","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Forest","Hill"],"uniques": []},
-	{"name": "Gold Ore","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 2, "production": -1},"terrainsCanBeFoundOn": ["Grasslands","Hill","Forest"],"uniques": []},
-	{"name": "Silver","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Hill","Grasslands",],"uniques": []},
+	{"name": "Gold Ore","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 2, "production": -1},"terrainsCanBeFoundOn": ["Grassland","Hill","Forest"],"uniques": []},
+	{"name": "Silver","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Hill","Grassland",],"uniques": []},
 	{"name": "Whales","resourceType": "Luxury","gold": 1,"improvement": "Fishing Boats","improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Coast","Ocean"],"uniques": []},
 	{"name": "Pearls","resourceType": "Luxury","gold": 1,"improvement": "Fishing Boats","improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Coast"],"uniques": []},
 
