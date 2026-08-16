@@ -12,7 +12,27 @@
         "movementType": "Land"
     },
     {
-        "name": "Land Melee",
+        "name": "Frontline Unit",
+        "movementType": "Land"
+    },
+    {
+        "name": "Anti-Mobile Unit",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mobile Unit",
+        "movementType": "Land"
+    },
+    {
+        "name": "Short Ranged Unit",
+        "movementType": "Land"
+    },
+    {
+        "name": "Long Ranged Unit",
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege Unit",
         "movementType": "Land"
     },
 ]
