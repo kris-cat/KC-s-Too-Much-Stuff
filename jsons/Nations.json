@@ -27,7 +27,28 @@
 			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
-	 {
+	{
+		"name": "Babylon","leaderName": "Nebuchadnezzar II","adjective": ["Babylonian"],"startBias": ["Grassland"],"preferredVictoryType": "Domination",
+		"startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
+		"startIntroPart2": "Great Nebuchadnezzar, Babylon's glory still lives through you and your people. Will you create a spark to enlighten the world again? Will your new empire shine through the ages of history?",
+		"declaringWar": "The demon wants the blood of soldiers!","attacked": "Oh well, I presume you know what you're doing.","defeated": "It is over. Perhaps now I shall have peace, at last.","introduction": "Are you real or a phantom?",
+		"neutralHello": "Greetings.","hateHello": "What do YOU want?!","tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		"outerColor": [27,53,63],"innerColor": [213,249,255],"uniqueName": "Babylonian Nation Abilities",
+		"uniques": [
+			"Starts with [Pottery]",
+			"Starts with [Agriculture]",
+			"Comment []",
+			"Comment [Nation Ability: American Exceptionalism]",
+			"Comment []",
+            "Comment [Leader Ability: Bull Moose President]",
+		],
+		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
+			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
+			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
+			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
+	{
 		"name": "China","leaderName": "Qin Shi Huang","adjective": ["Chinese"],"startBias": ["Grassland"],"preferredVictoryType": "Domination",
         "startIntroPart1": "Heaven itself bends before your beauty, Empress Wu Zetian, ruler of eternal China! You lead one of the oldest and greatest civilization of humanity. In your time, China stood at the forefront of science and technology, bringing the world such contributions as gunpowder, the printing press, and the world of Confucius, and this, long before the rest of the world was mature enough to make the same discoveries!",
 		"startIntroPart2": "Great Queen, can you make China prevail again, using your divine intelligence and beauty? China stands for greatness, and all its enemies will be dazzled soon enough! Will your new empire shine through the ages of history?",
