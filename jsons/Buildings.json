@@ -75,7 +75,7 @@
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 	},
 	{
-		"name": "Town Square","gold": 2,"production": 1,"percentStatBonus": {"gold": 10},"percentStatBonus": {"production": 5},"hurryCostModifier": 25,"requiredTech": "The Wheel"
+		"name": "Town Square","gold": 2,"production": 1,"percentStatBonus": {"gold": 10},"hurryCostModifier": 25,"requiredTech": "The Wheel"
 		"uniques": [],
 	},
 	{
