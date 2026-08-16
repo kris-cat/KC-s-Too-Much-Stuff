@@ -35,7 +35,7 @@
 		"attackSound": "nonmetalhit",
 	},
 	{
-		"name": "Scout","unitType": "Scouting Unit","movement": 2,"strength": 5,"cost": 25,"Hunting",
+		"name": "Scout","unitType": "Scouting Unit","movement": 2,"strength": 5,"cost": 25,"requiredTech": "Hunting",
 		"uniques": ["Ignores terrain cost"],
 		"attackSound": "nonmetalhit",
 	},
