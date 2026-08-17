@@ -40,11 +40,19 @@
 		"uniques": ["Automatically built in all cities where it is buildable","[+10]% Production when constructing [{non-[Wonder]} {Building}] buildings [in this city]"],
 	},
     //Ancient Era Buildings
-	//Column 0//
+	//Column 0
+	{
+		"name": "Cellar","food": 2,"percentStatBonus": {"food": 5},"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
+		"uniques": [],
+	},
     {
 		"name": "Granary","cost": 40,"hurryCostModifier": 40,"requiredTech": "Agriculture",
-        "requiredNearbyImprovedResources": ["Wheat"],
-		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]",],
+        "requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
+		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]","[+1 Food] from [Rice] tiles [in this city]","[+1 Food] from [Maize] tiles [in this city]",],
+	},
+	{
+		"name": "Qullqa","replaces": "Granary","uniqueTo": "Inca","food": 2,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Agriculture",
+		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
 	},
     {
 		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Mining",
@@ -61,7 +69,7 @@
 	},
 	{
 		"name": "Cistern","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Masonry",
-		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
+		"uniques": ["[15]% Food is carried over after population increases [in this city]"],
 	},
 	//Column 2//
 	{
