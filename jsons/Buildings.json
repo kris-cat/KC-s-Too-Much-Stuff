@@ -34,6 +34,11 @@
         "requiredNearbyImprovedResources": ["Peat"],
 		"uniques": ["Automatically built in all cities where it is buildable",],
 	},
+	{
+		"name": "Resource Bonus - Stone","cost": 0,"hurryCostModifier": 40,
+        "requiredNearbyImprovedResources": ["Stone"],
+		"uniques": ["Automatically built in all cities where it is buildable","[+10]% Production when constructing [{non-[Wonder]} {Building}] buildings [in this city]"],
+	},
     //Ancient Era Buildings
 	//Column 0//
     {
