@@ -25,50 +25,50 @@
 	},
     //Standard Improvements
 	{
-		"name": "Fishing Boats","terrainsCanBeBuiltOn": ["Coast"],"turnsToBuild": 5, "techRequired": "Fishing",
+		"name": "Fishing Boats","terrainsCanBeBuiltOn": ["Coast"],"turnsToBuild": 7, "techRequired": "Fishing",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "F"
 	},
     {
 		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland",],
-		"food": 1,"turnsToBuild": 5,"techRequired": "Agriculture",
+		"food": 1,"turnsToBuild": 7,"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water","Pillaging this improvement yields approximately [+25 Gold]",],
 		"shortcutKey": "F"
 	},
     {
-		"name": "Camp","turnsToBuild": 7,"techRequired": "Hunting",
+		"name": "Camp","turnsToBuild": 9,"techRequired": "Hunting",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "C"
 	},
 	{
 		"name": "Lumber Camp","terrainsCanBeBuiltOn": ["Forest"],
-		"production": 1,"turnsToBuild": 7,"techRequired": "Carpentry",
+		"production": 1,"turnsToBuild": 9,"techRequired": "Carpentry",
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "L"
 	},
 	{
 		"name": "Mine","terrainsCanBeBuiltOn": ["Hill"],
-		"production": 1,"food": -1,"turnsToBuild": 7,"techRequired": "Mining",
+		"production": 1,"food": -1,"turnsToBuild": 9,"techRequired": "Mining",
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "M"
 	},
 	{
-		"name": "Plantation","turnsToBuild": 7,"techRequired": "Irrigation",
+		"name": "Plantation","turnsToBuild": 9,"techRequired": "Irrigation",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "P"
 	},
 	{
-		"name": "Pasture","turnsToBuild": 5,"techRequired": "Animal Husbandry",
+		"name": "Pasture","turnsToBuild": 7,"techRequired": "Animal Husbandry",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "P"
 	},
 	{
-		"name": "Quarry","production": 1,"turnsToBuild": 5,"techRequired": "Masonry",
+		"name": "Quarry","production": 1,"turnsToBuild": 7,"techRequired": "Masonry",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "Q"
 	},
 	{
-		"name": "Terrace farm","food": 1,"production": -1,"turnsToBuild": 7,"terrainsCanBeBuiltOn": ["Hill"],"techRequired": "Bronze Working",
+		"name": "Terrace farm","food": 1,"production": -1,"turnsToBuild": 9,"terrainsCanBeBuiltOn": ["Hill"],"techRequired": "Bronze Working",
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "F"
 	},
