@@ -48,7 +48,7 @@
 	},
 	{
 		"name": "Mine","terrainsCanBeBuiltOn": ["Hill"],
-		"production": 1,"food": -1,"turnsToBuild": 9,"techRequired": "Mining",
+		"production": 2,"food": -1,"turnsToBuild": 9,"techRequired": "Mining",
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "M"
 	},
@@ -68,7 +68,7 @@
 		"shortcutKey": "Q"
 	},
 	{
-		"name": "Terrace farm","production": -1,"turnsToBuild": 9,"terrainsCanBeBuiltOn": ["Hill"],"techRequired": "Bronze Working",
+		"name": "Terrace farm","food": 1,"production": -1,"turnsToBuild": 9,"terrainsCanBeBuiltOn": ["Hill"],"techRequired": "Bronze Working",
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "F"
 	},
