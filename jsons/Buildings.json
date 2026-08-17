@@ -27,7 +27,7 @@
 	{
 		"name": "Resource Bonus - Maize","cost": 0,"hurryCostModifier": 40,
         "requiredNearbyImprovedResources": ["Maize"],
-		"uniques": ["Automatically built in all cities where it is buildable",],
+		"uniques": ["Automatically built in all cities where it is buildable","[+1 Food] from every [Forest] <in tiles adjacent to [Farm] tiles>"],
 	},
 	{
 		"name": "Resource Bonus - Peat","cost": 0,"hurryCostModifier": 40,
