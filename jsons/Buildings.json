@@ -13,32 +13,6 @@
 			"Indicates the capital city",
 		]
 	},
-	//Resource Bonus Buildingsa
-	{
-		"name": "Resource Bonus - Wheat","cost": 0,"hurryCostModifier": 40,
-        "requiredNearbyImprovedResources": ["Wheat"],
-		"uniques": ["Automatically built in all cities where it is buildable",],
-	},
-	{
-		"name": "Resource Bonus - Rice","cost": 0,"hurryCostModifier": 40,
-        "requiredNearbyImprovedResources": ["Rice"],
-		"uniques": ["Automatically built in all cities where it is buildable",],
-	},
-	{
-		"name": "Resource Bonus - Maize","cost": 0,"hurryCostModifier": 40,
-        "requiredNearbyImprovedResources": ["Maize"],
-		"uniques": ["Automatically built in all cities where it is buildable","[+1 Food] from every [Forest] <in tiles adjacent to [Farm] tiles>"],
-	},
-	{
-		"name": "Resource Bonus - Peat","cost": 0,"hurryCostModifier": 40,
-        "requiredNearbyImprovedResources": ["Peat"],
-		"uniques": ["Automatically built in all cities where it is buildable",],
-	},
-	{
-		"name": "Resource Bonus - Stone","cost": 0,"hurryCostModifier": 40,
-        "requiredNearbyImprovedResources": ["Stone"],
-		"uniques": ["Automatically built in all cities where it is buildable",],
-	},
     //Ancient Era Buildings
 	//Column 0//
     {
