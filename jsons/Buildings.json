@@ -40,6 +40,11 @@
 		"name": "Cistern","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Masonry",
 		"uniques": ["[15]% Food is carried over after population increases [in this city]"],
 	},
+	{
+		"name": "Stone Works","happiness": 1,"production": 1,"maintenance": 1,"requiredTech": "Calendar"
+		"requiredNearbyImprovedResources": ["Stone"],
+		"uniques": ["[+1 Production] from [Stone] tiles [in this city]"],
+	},
 	//Column 3//
 	{
 		"name": "Shrine","faith": 2,"cost": 40,"maintenance": 1,"requiredTech": "Calendar",
@@ -50,7 +55,15 @@
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 	},
 	//Column 4//
+	{
+		"name": "Stable","maintenance": 1,"requiredNearbyImprovedResources": ["Cattle"],"requiredTech": "Horseback Riding",
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Pasture] tiles [in this city]",],
+	},
 	//Classical Era Buildings Column 5//
+	{
+		"name": "Lighthouse","maintenance": 1,"requiredTech": "Celestial Navigation"
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]","[+1 Food] from [Coast] tiles [in this city]"],
+	},
 	//Column 6//
 	{
 		"name": "Arena","happiness": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Drama and Poetry",
@@ -75,7 +88,16 @@
 	},
 	//Column 7//
 	{
-		"name": "Temple","requiredBuilding": "Shrine","faith": 2,"maintenance": 2,"hurryCostModifier": 25,"requiredTech": "Philosophy",
+		"name": "Temple","requiredBuilding": "Shrine","faith": 2,"maintenance": 2,"hurryCostModifier": 25,"requiredTech": "Theology",
 		"uniques": ["Only available <when religion is enabled>",]
+	},
+	//Column 8///
+	{
+		"name": "University","requiredBuilding": "Library","maintenance": 2,"percentStatBonus": {"science": 33},"requiredTech": "Education"
+	},
+	//Column 9//
+	{
+		"name": "Windmill","production": 2,"maintenance": 2,"requiredTech": "Mechanics"
+		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
 	},
 ]
