@@ -104,6 +104,10 @@
         "columnNumber": 4,"era": "Classical Era","techCost": 100,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
+                "name": "Celestial Navigation","row": 1,"prerequisites": ["Calendar",],
+				"uniques": []
+			},
+			{
                 "name": "Philosophy","row": 3,"prerequisites": ["Mathematics",],
 				"uniques": []
 			},
@@ -120,6 +124,10 @@
 	{
         "columnNumber": 5,"era": "Classical Era","techCost": 135,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
+			{
+                "name": "Shipbuilding","row": 1,"prerequisites": ["Celestial Navigation",],
+				"uniques": []
+			},
 			{
                 "name": "Drama and Poetry","row": 3,"prerequisites": ["Philosophy",],
 				"uniques": []
