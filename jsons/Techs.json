@@ -203,7 +203,16 @@
                 "name": "Compass","row": 1,"prerequisites": ["Shipbuilding","Education"],
 			},
 			{
-                "name": "Mechanics","row": 6,"prerequisites": ["Physics"],
+                "name": "Alchemy","row": 3,"prerequisites": ["Education"],
+			},
+			{
+                "name": "Mechanics","row": 5,"prerequisites": ["Education","Physics"],
+			},
+			{
+                "name": "Horse Collar","row": 9,"prerequisites": ["The Plough","Feudalism"],
+			},
+			{
+                "name": "Pike Tactics","row": 11,"prerequisites": ["Feudalism"],
 			},
 		]
     },
@@ -212,6 +221,15 @@
         [
 			{
                 "name": "Maritime Industry","row": 1,"prerequisites": ["Compass"],
+			},
+			{
+                "name": "Gunpowder","row": 3,"prerequisites": ["Alchemy"],
+			},
+			{
+                "name": "Paper","row": 4,"prerequisites": ["Alchemy","Mechanics"],
+			},
+			{
+                "name": "Banking","row": 5,"prerequisites": ["Mechanics"],
 			},
 		]
     },
