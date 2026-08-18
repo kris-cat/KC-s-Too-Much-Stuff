@@ -26,13 +26,14 @@
     //Standard Improvements
 	{
 		"name": "Fishing Boats","terrainsCanBeBuiltOn": ["Coast"],"turnsToBuild": 7, "techRequired": "Fishing",
-		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["Can only be built to improve a resource","[+1 Gold] <after discovering [Maritime Industry]>","Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "F"
 	},
     {
 		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland",],
 		"food": 1,"turnsToBuild": 7,"techRequired": "Agriculture",
-		"uniques": ["Can also be built on tiles adjacent to fresh water","Pillaging this improvement yields approximately [+25 Gold]",],
+		"uniques": ["Can also be built on tiles adjacent to fresh water","[+1 Food] from [Fresh water] tiles <after discovering [The Plough]>",
+			"Pillaging this improvement yields approximately [+25 Gold]",],
 		"shortcutKey": "F"
 	},
     {
@@ -69,7 +70,7 @@
 	},
 	{
 		"name": "Terrace farm","food": 1,"turnsToBuild": 9,"terrainsCanBeBuiltOn": ["Hill"],"techRequired": "Bronze Working",
-		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]",],
+		"uniques": ["[+1 Food] from [Fresh water] tiles <after discovering [The Plough]>","Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "F"
 	},
 	//Road Improvements
