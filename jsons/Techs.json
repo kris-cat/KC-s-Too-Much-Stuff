@@ -209,7 +209,7 @@
                 "name": "Mechanics","row": 5,"prerequisites": ["Education","Physics"],
 			},
 			{
-                "name": "Horse Collar","row": 6,"prerequisites": ["Stirrups","Feudalism"],
+                "name": "Horse Collar","row": 9,"prerequisites": ["Stirrups","Feudalism"],
 			},
 			{
                 "name": "Pike Tactics","row": 11,"prerequisites": ["Feudalism"],
@@ -226,13 +226,13 @@
                 "name": "Gunpowder","row": 3,"prerequisites": ["Alchemy"],
 			},
 			{
-                "name": "Paper","row": 4,"prerequisites": ["Alchemy","Mechanics"],
+                "name": "Paper","row": 5,"prerequisites": ["Alchemy","Mechanics"],
 			},
 			{
-                "name": "Banking","row": 5,"prerequisites": ["Mechanics"],
+                "name": "Banking","row": 7,"prerequisites": ["Mechanics"],
 			},
 			{
-                "name": "Artisanship","row": 7,"prerequisites": ["Mechanics","Horse Collar"],
+                "name": "Artisanship","row": 9,"prerequisites": ["Mechanics","Horse Collar"],
 			},
 		]
     },
