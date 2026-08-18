@@ -38,7 +38,7 @@
 	},
 	{
 		"name": "Cistern","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Masonry",
-		"uniques": ["[15]% Food is carried over after population increases [in this city]"],
+		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
 	},
 	{
 		"name": "Stone Works","happiness": 1,"production": 1,"maintenance": 1,"requiredTech": "Calendar"
