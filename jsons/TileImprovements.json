@@ -91,7 +91,7 @@
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
 		"techRequired": "Carpentry",
-		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"uniques": ["Excluded from map editor"],
 		"shortcutKey": "X",
         "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
 	},
