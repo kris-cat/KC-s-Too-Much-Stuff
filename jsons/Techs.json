@@ -29,7 +29,7 @@
 		]
     },
 	{
-        "columnNumber": 1,"era": "Ancient Era","techCost": 35,"buildingCost": 50,"wonderCost": 185,"techs": 
+        "columnNumber": 1,"era": "Ancient Era","techCost": 30,"buildingCost": 50,"wonderCost": 185,"techs": 
         [
             {
                 "name": "Sailing","row": 1,"prerequisites": ["Fishing"],
@@ -50,7 +50,7 @@
 		]
     },
 	{
-        "columnNumber": 2,"era": "Ancient Era","techCost": 35,"buildingCost": 50,"wonderCost": 185,"techs": 
+        "columnNumber": 2,"era": "Ancient Era","techCost": 40,"buildingCost": 50,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Calendar","row": 1,"uniques": ["Unavailable <before discovering [Sailing]> <before discovering [Irrigation]> <hidden from users>"]
@@ -101,7 +101,7 @@
 		]
     },
 	{
-        "columnNumber": 4,"era": "Classical Era","techCost": 100,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 4,"era": "Classical Era","techCost": 75,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Celestial Navigation","row": 1,"prerequisites": ["Calendar",],
@@ -122,7 +122,7 @@
 		]
     },
 	{
-        "columnNumber": 5,"era": "Classical Era","techCost": 135,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 5,"era": "Classical Era","techCost": 100,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Shipbuilding","row": 1,"prerequisites": ["Celestial Navigation","Engineering"],
@@ -151,7 +151,7 @@
 		]
     },
 	{
-        "columnNumber": 6,"era": "Classical Era","techCost": 175,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 6,"era": "Classical Era","techCost": 150,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Theology","row": 3,"prerequisites": ["Drama and Poetry","Code of Laws"],
