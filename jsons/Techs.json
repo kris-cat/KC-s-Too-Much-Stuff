@@ -186,7 +186,7 @@
 				],
 			},
 			{
-                "name": "Physics","row": 7,"prerequisites": ["Machinery","Guilds"],
+                "name": "Physics","row": 7,"prerequisites": ["Machinery"],
 			},
 			{
                 "name": "Stirrups","row": 9,"prerequisites": ["The Plough"],
