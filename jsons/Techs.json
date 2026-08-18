@@ -121,11 +121,19 @@
         "columnNumber": 5,"era": "Classical Era","techCost": 135,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
-                "name": "Drama and Poetry","row": 3,"prerequisites": ["Mathematics",],
+                "name": "Drama and Poetry","row": 3,"prerequisites": ["Philosophy",],
 				"uniques": []
 			},
 			{
-                "name": "Code of Laws","row": 4,"prerequisites": ["Mathematics",],
+                "name": "Code of Laws","row": 4,"prerequisites": ["Philosophy",],
+				"uniques": []
+			},
+			{
+                "name": "Hydrology","row": 7,"prerequisites": ["Engineering",],
+				"uniques": []
+			},
+			{
+                "name": "Construction","row": 8,"prerequisites": ["Engineering",],
 				"uniques": []
 			},
 			{
@@ -143,6 +151,10 @@
 			},
 			{
                 "name": "Civil Service","row": 4,"prerequisites": ["Code of Laws"],
+				"uniques": []
+			},
+			{
+                "name": "Mechanics","row": 7,
 				"uniques": []
 			},
 			{
