@@ -119,7 +119,7 @@
 	},
 	//World Wonders - Classical Era//
 	{
-		"name": "The Great Lighthouse","isWonder": true,"culture": 1,"requiredTech": "Optics",
+		"name": "The Great Lighthouse","isWonder": true,"culture": 1,"requiredTech": "Celestial Navigation",
 		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>","[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
 	},
 	{
