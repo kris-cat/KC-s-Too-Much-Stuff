@@ -154,7 +154,7 @@
         "columnNumber": 6,"era": "Classical Era","techCost": 175,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
-                "name": "Theology","row": 3,"prerequisites": ["Drama and Poetry","Code of Laws"],
+                "name": "Theology","row": 2,"prerequisites": ["Drama and Poetry","Code of Laws"],
 				"uniques": []
 			},
 			{
