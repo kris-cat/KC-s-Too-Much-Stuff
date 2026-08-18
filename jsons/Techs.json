@@ -176,7 +176,7 @@
 		]
     },
 	{
-        "columnNumber": 7,"era": "Post-Classical Era","techCost": 150,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 7,"era": "Post-Classical Era","techCost": 200,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Education","row": 4,"uniques": ["Unavailable <before discovering [Theology]> <before discovering [Civil Service]> <hidden from users>"]
@@ -197,7 +197,7 @@
 		]
     },
 	{
-        "columnNumber": 8,"era": "Post-Classical Era","techCost": 150,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 8,"era": "Post-Classical Era","techCost": 250,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Mechanics","row": 6,"prerequisites": ["Physics"],
