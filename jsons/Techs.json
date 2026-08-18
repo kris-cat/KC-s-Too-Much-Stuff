@@ -189,7 +189,7 @@
                 "name": "Physics","row": 7,"prerequisites": ["Machinery"],
 			},
 			{
-                "name": "Stirrups","row": 9,"prerequisites": ["The Plough"],
+                "name": "Stirrups","row": 6,"prerequisites": ["Horseback Riding","The Plough"],
 			},
 			{
                 "name": "Feudalism","row": 11,"prerequisites": ["The Plough","Guilds"],
@@ -209,7 +209,7 @@
                 "name": "Mechanics","row": 5,"prerequisites": ["Education","Physics"],
 			},
 			{
-                "name": "Horse Collar","row": 9,"prerequisites": ["Stirrups","Feudalism"],
+                "name": "Horse Collar","row": 6,"prerequisites": ["Stirrups","Feudalism"],
 			},
 			{
                 "name": "Pike Tactics","row": 11,"prerequisites": ["Feudalism"],
