@@ -1,5 +1,5 @@
 [
-    //Palace Buildings
+    //Palace Buildings//
     {
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -13,8 +13,7 @@
 			"Indicates the capital city",
 		]
 	},
-    //Ancient Era Buildings
-	//Column 0//
+    //Ancient Era Buildings Column 1//
     {
 		"name": "Granary","cost": 40,"hurryCostModifier": 40,"requiredTech": "Agriculture",
         "requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
@@ -24,10 +23,14 @@
 		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Mining",
 		"uniques": []
 	},
-	//Column 1//
+	//Column 2//
 	{
 		"name": "Garden","happiness": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Irrigation",
 		"uniques": ["Must be next to [Fresh Water]"],
+	},
+	{
+		"name": "Waterway","gold": 2,"maintenance": 0,"hurryCostModifier": 40,"requiredTech": "Irrigation",
+		"uniques": ["Must be on [River]",],
 	},
 	{
 		"name": "Walls","cityStrength": 3,"cityHealth": 35,"hurryCostModifier": 25,"requiredTech": "Masonry",
@@ -37,7 +40,7 @@
 		"name": "Cistern","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Masonry",
 		"uniques": ["[15]% Food is carried over after population increases [in this city]"],
 	},
-	//Column 2//
+	//Column 3//
 	{
 		"name": "Shrine","faith": 2,"cost": 40,"maintenance": 1,"requiredTech": "Calendar",
 		"uniques": ["Only available <when religion is enabled>"]
@@ -45,5 +48,34 @@
 	{
 		"name": "Library","hurryCostModifier": 25,"maintenance": 1,"requiredTech": "Writing"
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
+	},
+	//Column 4//
+	//Classical Era Buildings Column 5//
+	//Column 6//
+	{
+		"name": "Arena","happiness": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Drama and Poetry",
+	},
+	{
+		"name": "Amphitheater","requiredBuilding": "Monument","culture": 3,"maintenance": 2,"hurryCostModifier": 25,"requiredTech": "Drama and Poetry",
+	},
+	{
+		"name": "Water Mill","food": 2,"production": 1,"maintenance": 2,"hurryCostModifier": 25,"requiredTech": "Hydrology"
+		"uniques": ["Must be on [River]"],
+	},
+	{
+		"name": "Dam","production": 2,"percentStatBonus": {"production": 5},"maintenance": 2,"hurryCostModifier": 40,"requiredTech": "Hydrology",
+		"uniques": ["Must be on [River]","[+2 Production] in cities on [Hill] tiles",],
+	},
+	{
+		"name": "Market","gold": 2,"percentStatBonus": {"gold": 25},"requiredTech": "Currency"
+	},
+	{
+		"name": "Mint","requiredNearbyImprovedResources": ["Gold Ore", "Silver"],"requiredTech": "Currency"
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
+	},
+	//Column 7//
+	{
+		"name": "Temple","requiredBuilding": "Shrine","faith": 2,"maintenance": 2,"hurryCostModifier": 25,"requiredTech": "Philosophy",
+		"uniques": ["Only available <when religion is enabled>",]
 	},
 ]
