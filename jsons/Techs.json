@@ -200,7 +200,18 @@
         "columnNumber": 8,"era": "Post-Classical Era","techCost": 250,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
+                "name": "Compass","row": 1,"prerequisites": ["Shipbuilding","Education"],
+			},
+			{
                 "name": "Mechanics","row": 6,"prerequisites": ["Physics"],
+			},
+		]
+    },
+	{
+        "columnNumber": 9,"era": "Post-Classical Era","techCost": 300,"buildingCost": 75,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Maritime Industry","row": 1,"prerequisites": ["Compass"],
 			},
 		]
     },
