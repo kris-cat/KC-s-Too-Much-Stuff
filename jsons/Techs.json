@@ -231,6 +231,9 @@
 			{
                 "name": "Banking","row": 5,"prerequisites": ["Mechanics"],
 			},
+			{
+                "name": "Artisanship","row": 7,"prerequisites": ["Mechanics","Horse Collar"],
+			},
 		]
     },
 ]
