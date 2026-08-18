@@ -176,7 +176,7 @@
 		]
     },
 	{
-        "columnNumber": 6,"era": "Post-Classical Era","techCost": 150,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 7,"era": "Post-Classical Era","techCost": 150,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Education","row": 4,"uniques": ["Unavailable <before discovering [Theology]> <before discovering [Civil Service]> <hidden from users>"]
@@ -187,6 +187,20 @@
 			},
 			{
                 "name": "Physics","row": 7,"prerequisites": ["Machinery","Guilds"],
+			},
+			{
+                "name": "Stirrups","row": 9,"prerequisites": ["The Plough"],
+			},
+			{
+                "name": "Feudalism","row": 11,"prerequisites": ["The Plough","Guilds"],
+			},
+		]
+    },
+	{
+        "columnNumber": 8,"era": "Post-Classical Era","techCost": 150,"buildingCost": 75,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Mechanics","row": 6,"prerequisites": ["Physics"],
 			},
 		]
     },
