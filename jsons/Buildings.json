@@ -91,7 +91,7 @@
 		"name": "Temple","requiredBuilding": "Shrine","faith": 2,"maintenance": 2,"hurryCostModifier": 25,"requiredTech": "Theology",
 		"uniques": ["Only available <when religion is enabled>",]
 	},
-	//Column 8///
+	//Column 8
 	{
 		"name": "University","requiredBuilding": "Library","maintenance": 2,"percentStatBonus": {"science": 33},"requiredTech": "Education"
 	},
@@ -100,4 +100,31 @@
 		"name": "Windmill","production": 2,"maintenance": 2,"requiredTech": "Mechanics"
 		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
 	},
+	//Column 10//
+	{
+		"name": "Bank","requiredBuilding": "Market","gold": 2,"percentStatBonus": {"gold": 25},"requiredTech": "Banking"
+	},
+	//World Wonders - Ancient Era//
+	{
+		"name": "The Pyramids","isWonder": true,"culture": 1,"requiredTech": "Masonry",
+		"uniques": ["Can build [all] improvements at a [+25]% rate","[2] free [Worker] units appear"],
+	},
+	{
+		"name": "The Great Library","isWonder": true,"science": 3,"culture": 1,"requiredTech": "Writing",
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
+	},
+	{
+		"name": "Statue of Zeus","isWonder": true,"culture": 1,"requiredTech": "Bronze Working",
+		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+	},
+	//World Wonders - Classical Era//
+	{
+		"name": "The Great Lighthouse","isWonder": true,"culture": 1,"requiredTech": "Optics",
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>","[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
+	},
+	{
+		"name": "Great Wall","isWonder": true,"culture": 3,"requiredTech": "Engineering",
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <Suppress warning [*contains a conditional on a unit movement unique*]>","Gain a free [Walls] [in this city]"],
+	},
+	//World Wonders - Post Classical Era//
 ]
