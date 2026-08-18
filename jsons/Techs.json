@@ -209,7 +209,7 @@
                 "name": "Mechanics","row": 5,"prerequisites": ["Education","Physics"],
 			},
 			{
-                "name": "Horse Collar","row": 9,"prerequisites": ["The Plough","Feudalism"],
+                "name": "Horse Collar","row": 9,"prerequisites": ["Stirrups","Feudalism"],
 			},
 			{
                 "name": "Pike Tactics","row": 11,"prerequisites": ["Feudalism"],
