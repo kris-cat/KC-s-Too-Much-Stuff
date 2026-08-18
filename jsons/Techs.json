@@ -154,8 +154,11 @@
 				"uniques": []
 			},
 			{
-                "name": "Mechanics","row": 7,"prerequisites": ["Engineering"],
-				"uniques": []
+                "name": "Mechanics","row": 7,"uniques": ["Unavailable <before discovering [Hydrology]> <before discovering [Construction]> <hidden from users>"]
+				"civilopediaText": [
+					{"text": "Requires Hydrology","link": "Technologies/Hydrology"},
+					{"text": "or Construction","link": "Technologies/Construction"}
+				],
 			},
 			{
                 "name": "Guilds","row": 11,"prerequisites": ["Currency"],
