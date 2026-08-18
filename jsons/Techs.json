@@ -129,7 +129,7 @@
 				"uniques": []
 			},
 			{
-                "name": "Drama and Poetry","row": 3,"prerequisites": ["Philosophy",],
+                "name": "Drama and Poetry","row": 2,"prerequisites": ["Philosophy",],
 				"uniques": []
 			},
 			{
@@ -158,7 +158,7 @@
 				"uniques": []
 			},
 			{
-                "name": "Civil Service","row": 4,"prerequisites": ["Code of Laws"],
+                "name": "Civil Service","row": 3,"prerequisites": ["Code of Laws"],
 				"uniques": []
 			},
 			{
