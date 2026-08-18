@@ -1,7 +1,7 @@
 [
     //Ancient Era
 	{
-        "columnNumber": 0,"era": "Ancient Era","techCost": 20,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
             {
                 "name": "Fishing","row": 1,
@@ -97,6 +97,23 @@
 			{
                 "name": "Iron Working","row": 11,"prerequisites": ["Bronze Working"],
 				"uniques": []
+			},
+		]
+    },
+	{
+        "columnNumber": 4,"era": "Classical Era","techCost": 100,"buildingCost": 75,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Philosophy","row": 3,"prerequisites": ["Mathematics",],
+				"uniques": [""]
+			},
+			{
+                "name": "Engineering","row": 8,"prerequisites": ["Mathematics", "Craftsmanship"],
+				"uniques": [""]
+			},
+			{
+                "name": "Metal Casting","row": 11,"prerequisites": ["Craftsmanship", "Iron Working"],
+				"uniques": [""]
 			},
 		]
     },
