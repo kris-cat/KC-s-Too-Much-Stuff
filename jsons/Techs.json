@@ -125,7 +125,7 @@
         "columnNumber": 5,"era": "Classical Era","techCost": 135,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
-                "name": "Shipbuilding","row": 1,"prerequisites": ["Celestial Navigation",],
+                "name": "Shipbuilding","row": 1,"prerequisites": ["Celestial Navigation","Engineering"],
 				"uniques": []
 			},
 			{
@@ -154,12 +154,15 @@
         "columnNumber": 6,"era": "Classical Era","techCost": 175,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
-                "name": "Theology","row": 2,"prerequisites": ["Drama and Poetry","Code of Laws"],
+                "name": "Theology","row": 3,"prerequisites": ["Drama and Poetry","Code of Laws"],
 				"uniques": []
 			},
 			{
-                "name": "Civil Service","row": 3,"prerequisites": ["Code of Laws"],
-				"uniques": []
+                "name": "Civil Service","row": 5,"uniques": ["Unavailable <before discovering [Code of Laws]> <before discovering [Currency]> <hidden from users>"]
+				"civilopediaText": [
+					{"text": "Requires Code of Laws","link": "Technologies/Code of Laws"},
+					{"text": "or Currency","link": "Technologies/Currency"}
+				],
 			},
 			{
                 "name": "Mechanics","row": 7,"uniques": ["Unavailable <before discovering [Hydrology]> <before discovering [Construction]> <hidden from users>"]
