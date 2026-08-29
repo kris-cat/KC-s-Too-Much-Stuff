@@ -236,7 +236,7 @@
                 "name": "Artisanship","row": 9,"prerequisites": ["Mechanics","Horse Collar"],
 			},
 			{
-                "name": "Pike Tactics","row": 9,"prerequisites": ["Castles"],
+                "name": "Pike Tactics","row": 11,"prerequisites": ["Castles"],
 			},
 		]
     },
