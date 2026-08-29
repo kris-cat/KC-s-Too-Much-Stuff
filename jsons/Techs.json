@@ -116,7 +116,7 @@
 				"uniques": ["Roads connect tiles across rivers",]
 			},
 			{
-                "name": "Metal Casting","row": 11,"prerequisites": ["Craftsmanship", "Iron Working"],
+                "name": "Steel","row": 11,"prerequisites": ["Craftsmanship", "Iron Working"],
 				"uniques": []
 			},
 		]
@@ -145,7 +145,7 @@
 				"uniques": []
 			},
 			{
-                "name": "Currency","row": 11,"prerequisites": ["Metal Casting"],
+                "name": "Currency","row": 11,"prerequisites": ["Steel"],
 				"uniques": ["Enables conversion of city production to [Gold]"]
 			},
 		]
@@ -213,7 +213,7 @@
 				"uniques": ["Improves movement speed on roads"]
 			},
 			{
-                "name": "Pike Tactics","row": 11,"prerequisites": ["Feudalism"],
+                "name": "Castles","row": 11,"prerequisites": ["Feudalism"],
 			},
 		]
     },
@@ -235,6 +235,30 @@
 			{
                 "name": "Artisanship","row": 9,"prerequisites": ["Mechanics","Horse Collar"],
 			},
+			{
+                "name": "Pike Tactics","row": 9,"prerequisites": ["Castles"],
+			},
 		]
     },
+	{
+        "columnNumber": 10,"era": "Early Modern Era","techCost": 310,"buildingCost": 75,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Cartography","row": 2,"prerequisites": ["Maritime Industry","Paper"],
+			},
+			{
+                "name": "Firearms","row": 3,"prerequisites": ["Gunpowder"],
+			},
+			{
+                "name": "Printing Press","row": 5,"prerequisites": ["Paper"],
+			},
+			{
+                "name": "Manufacturing","row": 8,"prerequisites": ["Banking","Artisanship"],
+			},
+			{
+                "name": "Metal Casting","row": 9,"prerequisites": ["Artisanship","Pike Tactics"],
+			},
+		]
+    },
+]
 ]
