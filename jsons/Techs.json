@@ -348,7 +348,7 @@
         "columnNumber": 15,"era": "Late Modern Era","techCost": 660,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
-                "name": "Electricity","row": 4,"prerequisites": ["Natural History","Advanced Chemistry"],
+                "name": "Electricity","row": 4,"prerequisites": ["Natural History","Chemistry"],
 			},
 			{
                 "name": "Flight","row": 7,"prerequisites": ["Chemistry","Replaceable Parts"],
