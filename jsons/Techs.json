@@ -300,7 +300,7 @@
                 "name": "Architecture","row": 9,"prerequisites": ["Metallurgy"],
 			},
 			{
-                "name": "Refined Steel","row": 11,"prerequisites": ["Metallurgy"],
+                "name": "Basic Chemistry","row": 11,"prerequisites": ["Metallurgy"],
 			},
 		]
     },
@@ -314,7 +314,7 @@
                 "name": "Scientific Method","row": 5,"prerequisites": ["Steam Power"],
 			},
 			{
-                "name": "Medicine","row": 6,"prerequisites": ["Steam Power"],
+                "name": "Medicine","row": 6,"prerequisites": ["Steam Power","Basic Chemistry"],
 			},
 			{
                 "name": "Industrialisation","row": 8,"prerequisites": ["Steam Power","Mass Production"],
@@ -325,7 +325,7 @@
 		]
     },
 	{
-        "columnNumber": 14,"era": "Modern Era","techCost": 525,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 14,"era": "Modern Era","techCost": 520,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Military Science","row": 2,"prerequisites": ["Rifling"],
@@ -334,18 +334,47 @@
                 "name": "Natural History","row": 4,"prerequisites": ["Scientific Method"],
 			},
 			{
-                "name": "Chemistry","row": 6,"prerequisites": ["Medicine","Industrialisation"],
+                "name": "Advanced Chemistry","row": 7,"prerequisites": ["Medicine","Industrialisation"],
 			},
 			{
                 "name": "Replaceable Parts","row": 9,"prerequisites": ["Industrialisation","Civil Engineering"],
 			},
+			{
+                "name": "Railroad","row": 11,"prerequisites": ["Industrialisation","Civil Engineering"],
+			},
 		]
     },
 	{
-        "columnNumber": 15,"era": "Modern Era","techCost": 685,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 15,"era": "Modern Era","techCost": 660,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
-                "name": "Combustion","row": 7,"prerequisites": ["Chemistry","Replaceable Parts"],
+                "name": "Electricity","row": 4,"prerequisites": ["Natural History","Advanced Chemistry"],
+			},
+			{
+                "name": "Flight","row": 7,"prerequisites": ["Advanced Chemistry","Replaceable Parts"],
+			},
+			{
+                "name": "Mechanisation","row": 9,"prerequisites": ["Replaceable Parts"],
+			},
+			{
+                "name": "Combustion","row": 11,"prerequisites": ["Advanced Chemistry","Replaceable Parts","Railroad"],
+			},
+		]
+    },
+	{
+        "columnNumber": 16,"era": "Modern Era","techCost": 700,"buildingCost": 75,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Radio","row": 1,"prerequisites": ["Military Science","Electricity","Flight"],
+			},
+			{
+                "name": "Pharmaceuticals","row": 3,"prerequisites": ["Military Science","Electricity"],
+			},
+			{
+                "name": "Atomic Theory","row": 4,"prerequisites": ["Military Science","Electricity"],
+			},
+			{
+                "name": "Plastics","row": 8,"prerequisites": ["Mechanisation","Combustion"],
 			},
 		]
     },
