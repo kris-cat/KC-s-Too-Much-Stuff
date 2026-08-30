@@ -334,10 +334,18 @@
                 "name": "Natural History","row": 4,"prerequisites": ["Scientific Method"],
 			},
 			{
-                "name": "Chemistry","row": 6,"prerequisites": ["Steam Power","Chemistry"],
+                "name": "Chemistry","row": 6,"prerequisites": ["Medicine","Industrialisation"],
 			},
 			{
-                "name": "Replaceable Parts","row": 8,"prerequisites": ["Industrialisation"],
+                "name": "Replaceable Parts","row": 9,"prerequisites": ["Industrialisation","Civil Engineering"],
+			},
+		]
+    },
+	{
+        "columnNumber": 15,"era": "Modern Era","techCost": 685,"buildingCost": 75,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Combustion","row": 7,"prerequisites": ["Chemistry","Replaceable Parts"],
 			},
 		]
     },
