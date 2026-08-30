@@ -268,30 +268,33 @@
         "columnNumber": 11,"era": "Early Modern Era","techCost": 350,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
-                "name": "Square Rigging","row": 1,"prerequisites": ["Cartography"],
+                "name": "Square Rigging","row": 2,"prerequisites": ["Cartography","Metal Casting"],
 			},
 			{
-                "name": "Coking","row": 6,"prerequisites": ["Manufacturing"],
+                "name": "Economics","row": 2,"prerequisites": ["Cartography","Metal Casting"],
 			},
 			{
-                "name": "Economics","row": 8,"prerequisites": ["Manufacturing"],
+                "name": "Coking","row": 8,"prerequisites": ["Manufacturing"],
 			},
 			{
-                "name": "Metallurgy","row": 10,"prerequisites": ["Metal Casting"],
+                "name": "Metallurgy","row": 9,"prerequisites": ["Manufacturing","Metal Casting"],
 			},
 		]
     },
 	{
-        "columnNumber": 12,"era": "Early Modern Era","techCost": 350,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 12,"era": "Early Modern Era","techCost": 400,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
-                "name": "Steam Power","row": 5,"prerequisites": ["Square Rigging","Coking"],
+                "name": "Warships","row": 2,"prerequisites": ["Square Rigging","Economics"],
 			},
 			{
-                "name": "Mass Production","row": 7,"prerequisites": ["Coking","Economics"],
+                "name": "Steam Power","row": 4,"prerequisites": ["Economics","Coking"],
 			},
 			{
-                "name": "Architecture","row": 10,"prerequisites": ["Metallurgy"],
+                "name": "Architecture","row": 8,"prerequisites": ["Metallurgy"],
+			},
+			{
+                "name": "Refined Steel","row": 10,"prerequisites": ["Metallurgy"],
 			},
 		]
     },
