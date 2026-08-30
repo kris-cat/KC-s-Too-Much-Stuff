@@ -305,7 +305,7 @@
 		]
     },
 	{
-        "columnNumber": 13,"era": "Modern Era","techCost": 465,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 13,"era": "Late Modern Era","techCost": 465,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Rifling","row": 3,"prerequisites": ["Flintlock","Mass Production"],
@@ -314,7 +314,7 @@
                 "name": "Scientific Method","row": 5,"prerequisites": ["Steam Power"],
 			},
 			{
-                "name": "Medicine","row": 6,"prerequisites": ["Steam Power","Basic Chemistry"],
+                "name": "Medicine","row": 6,"prerequisites": ["Steam Power","Fertiliser"],
 			},
 			{
                 "name": "Industrialisation","row": 8,"prerequisites": ["Steam Power","Mass Production"],
@@ -325,7 +325,7 @@
 		]
     },
 	{
-        "columnNumber": 14,"era": "Modern Era","techCost": 520,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 14,"era": "Late Modern Era","techCost": 520,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Military Science","row": 2,"prerequisites": ["Rifling"],
@@ -345,7 +345,7 @@
 		]
     },
 	{
-        "columnNumber": 15,"era": "Modern Era","techCost": 660,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 15,"era": "Late Modern Era","techCost": 660,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Electricity","row": 4,"prerequisites": ["Natural History","Advanced Chemistry"],
@@ -362,7 +362,7 @@
 		]
     },
 	{
-        "columnNumber": 16,"era": "Modern Era","techCost": 700,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 16,"era": "Late Modern Era","techCost": 700,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Radio","row": 1,"prerequisites": ["Military Science","Electricity","Flight"],
