@@ -314,7 +314,7 @@
                 "name": "Scientific Method","row": 5,"prerequisites": ["Steam Power"],
 			},
 			{
-                "name": "Medicine","row": 6,"prerequisites": ["Steam Power","Chemistry"],
+                "name": "Medicine","row": 6,"prerequisites": ["Steam Power"],
 			},
 			{
                 "name": "Industrialisation","row": 8,"prerequisites": ["Steam Power","Mass Production"],
