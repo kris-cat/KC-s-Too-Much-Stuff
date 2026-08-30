@@ -300,7 +300,7 @@
                 "name": "Architecture","row": 9,"prerequisites": ["Metallurgy"],
 			},
 			{
-                "name": "Basic Chemistry","row": 11,"prerequisites": ["Metallurgy"],
+                "name": "Fertiliser","row": 11,"prerequisites": ["Metallurgy"],
 			},
 		]
     },
@@ -320,7 +320,7 @@
                 "name": "Industrialisation","row": 8,"prerequisites": ["Steam Power","Mass Production"],
 			},
 			{
-                "name": "Civil Engineering","row": 10,"prerequisites": ["Architecture","Basic Chemistry"],
+                "name": "Civil Engineering","row": 10,"prerequisites": ["Architecture","Fertiliser"],
 			},
 		]
     },
@@ -334,7 +334,7 @@
                 "name": "Natural History","row": 4,"prerequisites": ["Scientific Method"],
 			},
 			{
-                "name": "Advanced Chemistry","row": 7,"prerequisites": ["Medicine","Industrialisation"],
+                "name": "Chemistry","row": 7,"prerequisites": ["Medicine","Industrialisation"],
 			},
 			{
                 "name": "Replaceable Parts","row": 9,"prerequisites": ["Industrialisation","Civil Engineering"],
@@ -351,13 +351,13 @@
                 "name": "Electricity","row": 4,"prerequisites": ["Natural History","Advanced Chemistry"],
 			},
 			{
-                "name": "Flight","row": 7,"prerequisites": ["Advanced Chemistry","Replaceable Parts"],
+                "name": "Flight","row": 7,"prerequisites": ["Chemistry","Replaceable Parts"],
 			},
 			{
                 "name": "Mechanisation","row": 9,"prerequisites": ["Replaceable Parts"],
 			},
 			{
-                "name": "Combustion","row": 11,"prerequisites": ["Advanced Chemistry","Replaceable Parts","Railroad"],
+                "name": "Combustion","row": 11,"prerequisites": ["Chemistry","Replaceable Parts","Railroad"],
 			},
 		]
     },
