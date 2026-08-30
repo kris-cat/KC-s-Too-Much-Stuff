@@ -320,7 +320,7 @@
                 "name": "Industrialisation","row": 8,"prerequisites": ["Steam Power","Mass Production"],
 			},
 			{
-                "name": "Civil Engineering","row": 10,"prerequisites": ["Architecture","Refined Steel"],
+                "name": "Civil Engineering","row": 10,"prerequisites": ["Architecture","Basic Chemistry"],
 			},
 		]
     },
