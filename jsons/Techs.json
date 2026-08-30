@@ -271,7 +271,7 @@
                 "name": "Square Rigging","row": 2,"prerequisites": ["Cartography","Metal Casting"],
 			},
 			{
-                "name": "Economics","row": 2,"prerequisites": ["Cartography","Metal Casting"],
+                "name": "Economics","row": 5,"prerequisites": ["Cartography","Metal Casting"],
 			},
 			{
                 "name": "Coking","row": 8,"prerequisites": ["Manufacturing"],
