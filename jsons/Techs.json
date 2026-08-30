@@ -264,4 +264,35 @@
 			},
 		]
     },
+	{
+        "columnNumber": 11,"era": "Early Modern Era","techCost": 350,"buildingCost": 75,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Square Rigging","row": 1,"prerequisites": ["Cartography"],
+			},
+			{
+                "name": "Coking","row": 6,"prerequisites": ["Manufacturing"],
+			},
+			{
+                "name": "Economics","row": 8,"prerequisites": ["Manufacturing"],
+			},
+			{
+                "name": "Metallurgy","row": 10,"prerequisites": ["Metal Casting"],
+			},
+		]
+    },
+	{
+        "columnNumber": 11,"era": "Early Modern Era","techCost": 350,"buildingCost": 75,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Steam Power","row": 5,"prerequisites": ["Square Rigging","Coking"],
+			},
+			{
+                "name": "Mass Production","row": 7,"prerequisites": ["Coking","Economics"],
+			},
+			{
+                "name": "Architecture","row": 10,"prerequisites": ["Metallurgy"],
+			},
+		]
+    },
 ]
