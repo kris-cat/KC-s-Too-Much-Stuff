@@ -282,7 +282,7 @@
 		]
     },
 	{
-        "columnNumber": 11,"era": "Early Modern Era","techCost": 350,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 12,"era": "Early Modern Era","techCost": 350,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Steam Power","row": 5,"prerequisites": ["Square Rigging","Coking"],
