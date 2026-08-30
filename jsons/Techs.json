@@ -253,10 +253,14 @@
                 "name": "Printing Press","row": 5,"prerequisites": ["Paper"],
 			},
 			{
-                "name": "Manufacturing","row": 8,"prerequisites": ["Banking","Artisanship"],
+                "name": "Manufacturing","row": 8,"uniques": ["Unavailable <before discovering [Banking]> <before discovering [Artisanship]> <hidden from users>"]
+				"civilopediaText": [
+					{"text": "Requires Banking","link": "Technologies/Banking"},
+					{"text": "or Artisanship","link": "Technologies/Artisanship"}
+				],
 			},
 			{
-                "name": "Metal Casting","row": 9,"prerequisites": ["Artisanship","Pike Tactics"],
+                "name": "Metal Casting","row": 9,"prerequisites": ["Gunpowder","Artisanship","Pike Tactics"],
 			},
 		]
     },
