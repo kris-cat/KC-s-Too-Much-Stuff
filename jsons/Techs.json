@@ -325,7 +325,7 @@
 		]
     },
 	{
-        "columnNumber": 13,"era": "Modern Era","techCost": 525,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 14,"era": "Modern Era","techCost": 525,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
                 "name": "Military Science","row": 2,"prerequisites": ["Rifling"],
