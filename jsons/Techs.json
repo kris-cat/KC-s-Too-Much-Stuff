@@ -160,11 +160,7 @@
                 "name": "Civil Service","row": 5,"prerequisites": ["Code of Laws","Currency"],
 			},
 			{
-                "name": "Machinery","row": 7,"uniques": ["Unavailable <before discovering [Hydrology]> <before discovering [Construction]> <hidden from users>"]
-				"civilopediaText": [
-					{"text": "Requires Hydrology","link": "Technologies/Hydrology"},
-					{"text": "or Construction","link": "Technologies/Construction"}
-				],
+                "name": "Machinery","row": 7,"prerequisites": ["Construction"],
 			},
 			{
                 "name": "The Plough","row": 9,"prerequisites": ["Hydrology"],
