@@ -390,7 +390,7 @@
                 "name": "Atomic Theory","row": 5,"prerequisites": ["Radio"],
 			},
 			{
-                "name": "Radar","row": 5,"prerequisites": ["Radio","Flight"],
+                "name": "Radar","row": 7,"prerequisites": ["Radio","Flight"],
 			},
 			{
                 "name": "Combined Arms","row": 9,"prerequisites": ["Plastics","Ballistics"],
