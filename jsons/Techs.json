@@ -71,7 +71,7 @@
 				],
 			},
 			{
-                "name": "Bronze Working","row": 11,"prerequisites": ["Mining"],
+                "name": "Bronze Working","row": 11,"prerequisites": ["Mining","Masonry"],
 				"uniques": []
 			},
 		]
