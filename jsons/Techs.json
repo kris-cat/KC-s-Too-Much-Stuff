@@ -281,7 +281,7 @@
         "columnNumber": 12,"era": "Early Modern Era","techCost": 400,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
-                "name": "Warships","row": 1,"prerequisites": ["Square Rigging","Economics"],
+                "name": "Navigation","row": 1,"prerequisites": ["Square Rigging","Economics"],
 			},
 			{
                 "name": "Flintlock","row": 3,"prerequisites": ["Firearms","Economics"],
@@ -293,10 +293,10 @@
                 "name": "Mass Production","row": 7,"prerequisites": ["Economics","Coking"],
 			},
 			{
-                "name": "Architecture","row": 9,"prerequisites": ["Metallurgy"],
+                "name": "Refined Steel","row": 9,"prerequisites": ["Metallurgy"],
 			},
 			{
-                "name": "Fertiliser","row": 11,"prerequisites": ["Metallurgy"],
+                "name": "Chemistry","row": 11,"prerequisites": ["Metallurgy"],
 			},
 		]
     },
@@ -310,67 +310,90 @@
                 "name": "Scientific Method","row": 5,"prerequisites": ["Steam Power"],
 			},
 			{
-                "name": "Medicine","row": 6,"prerequisites": ["Steam Power","Fertiliser"],
+                "name": "Replaceable Parts","row": 7,"prerequisites": ["Mass Production"],
 			},
 			{
-                "name": "Industrialisation","row": 8,"prerequisites": ["Steam Power","Mass Production"],
+                "name": "Railroad","row": 9,"prerequisites": ["Mass Production","Refined Steel"],
 			},
 			{
-                "name": "Civil Engineering","row": 10,"prerequisites": ["Architecture","Fertiliser"],
-			},
-		]
-    },
-	{
-        "columnNumber": 14,"era": "Late Modern Era","techCost": 520,"buildingCost": 75,"wonderCost": 185,"techs": 
-        [
-			{
-                "name": "Military Science","row": 2,"prerequisites": ["Rifling"],
-			},
-			{
-                "name": "Natural History","row": 4,"prerequisites": ["Scientific Method"],
-			},
-			{
-                "name": "Chemistry","row": 7,"prerequisites": ["Medicine","Industrialisation"],
-			},
-			{
-                "name": "Replaceable Parts","row": 9,"prerequisites": ["Industrialisation","Civil Engineering"],
-			},
-			{
-                "name": "Railroad","row": 11,"prerequisites": ["Industrialisation","Civil Engineering"],
+                "name": "Fertiliser","row": 11,"prerequisites": ["Chemistry"],
 			},
 		]
     },
 	{
-        "columnNumber": 15,"era": "Late Modern Era","techCost": 660,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 14,"era": "Late Modern Era","techCost": 500,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
-                "name": "Electricity","row": 4,"prerequisites": ["Natural History","Chemistry"],
+                "name": "Dockyards","row": 2,"prerequisites": ["Navigation","Rifling"],
 			},
 			{
-                "name": "Flight","row": 7,"prerequisites": ["Chemistry","Replaceable Parts"],
+                "name": "Military Science","row": 3,"prerequisites": ["Rifling"],
 			},
 			{
-                "name": "Mechanisation","row": 9,"prerequisites": ["Replaceable Parts"],
+                "name": "Biology","row": 5,"prerequisites": ["Scientific Method"],
 			},
 			{
-                "name": "Combustion","row": 11,"prerequisites": ["Chemistry","Replaceable Parts","Railroad"],
+                "name": "Electricity","row": 6,"prerequisites": ["Scientific Method","Replaceable Parts"],
+			},
+			{
+                "name": "Mechanisation","row": 8,"prerequisites": ["Replaceable Parts","Railroad"],
+			},
+			{
+                "name": "Dynamite","row": 10,"prerequisites": ["Railroad","Fertiliser"],
 			},
 		]
     },
 	{
-        "columnNumber": 16,"era": "Late Modern Era","techCost": 700,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 15,"era": "Late Modern Era","techCost": 560,"buildingCost": 75,"wonderCost": 185,"techs": 
         [
 			{
-                "name": "Radio","row": 1,"prerequisites": ["Military Science","Electricity","Flight"],
+                "name": "Medicine","row": 4,"prerequisites": ["Military Science","Biology"],
 			},
 			{
-                "name": "Pharmaceuticals","row": 3,"prerequisites": ["Military Science","Electricity"],
+                "name": "Electronics","row": 6,"prerequisites": ["Electricity","Mechanisation"],
 			},
 			{
-                "name": "Atomic Theory","row": 4,"prerequisites": ["Military Science","Electricity"],
+                "name": "Combustion","row": 8,"prerequisites": ["Biology","Mechanisation"],
 			},
 			{
-                "name": "Plastics","row": 8,"prerequisites": ["Mechanisation","Combustion"],
+                "name": "Ballistics","row": 10,"prerequisites": ["Dynamite"],
+			},
+		]
+    },
+	{
+        "columnNumber": 16,"era": "Late Modern Era","techCost": 630,"buildingCost": 75,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Warships","row": 2,"prerequisites": ["Dockyards","Electronics"],
+			},
+			{
+                "name": "Refrigeration","row": 3,"prerequisites": ["Medicine"],
+			},
+			{
+                "name": "Radio","row": 5,"prerequisites": ["Electronics"],
+			},
+			{
+                "name": "Flight","row": 7,"prerequisites": ["Electronics","Combustion"],
+			},
+			{
+                "name": "Plastics","row": 8,"prerequisites": ["Combustion"],
+			},
+		]
+    },
+	{
+        "columnNumber": 17,"era": "Late Modern Era","techCost": 700,"buildingCost": 75,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Penicillin","row": 2,"prerequisites": ["Warships","Refrigeration"],
+			},
+			{
+                "name": "Atomic Theory","row": 5,"prerequisites": ["Radio"],
+			},
+			{
+                "name": "Radar","row": 5,"prerequisites": ["Radio","Flight"],
+			},
+			{
+                "name": "Combined Arms","row": 9,"prerequisites": ["Plastics","Ballistics"],
 			},
 		]
     },
