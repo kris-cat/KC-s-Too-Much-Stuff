@@ -1,8 +1,8 @@
 [
-	{"name": "Fish", "resourceType": "Bonus","improvement": "Fishing Boats", "improvementStats": {"food": 2},"terrainsCanBeFoundOn": ["Coast"],},
-    {"name": "Wheat", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"production": 1}, "terrainsCanBeFoundOn": ["Grassland"],},
-	{"name": "Rice", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"food": 1}, "terrainsCanBeFoundOn": ["Grassland"],},
-	{"name": "Maize", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Grassland"],},
+	{"name": "Fish", "resourceType": "Bonus","improvement": "Fishing Boats", "improvementStats": {"food": 2},"terrainsCanBeFoundOn": ["Coast"]},
+    {"name": "Wheat", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"production": 1}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": ["Grain"]},
+	{"name": "Rice", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"food": 1}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": ["Grain"]},
+	{"name": "Maize", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": ["Grain"]},
 	{"name": "Peat", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"production": 1}, "terrainsCanBeFoundOn": ["Grassland"],},
     {"name": "Cattle", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"production": 1,"food": 1},"terrainsCanBeFoundOn": ["Grassland"],},
 	{"name": "Deer", "resourceType": "Bonus","improvement": "Camp", "improvementStats": {"gold": 1,"food": 1},"terrainsCanBeFoundOn": ["Grassland"],},
