@@ -1,20 +1,20 @@
 [
 	//Water Climates
 	{
-		"name": "Warm Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [23, 122, 228]
-		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [0.6] and [1] and humidity between [-1] and [1]","Ocean"]
-	},
-	{
-		"name": "Lukewarm Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [25, 97, 191]
-		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [-0.2] and [0.6] and humidity between [-1] and [1]","Ocean"]
+		"name": "Arctic Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [13, 25, 93]
+		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [-1] and [-0.7] and humidity between [-1] and [1]","Ocean"]
 	},
 	{
 		"name": "Cold Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [6, 60, 131]
 		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [-0.7] and [-0.2] and humidity between [-1] and [1]","Ocean"]
 	},
 	{
-		"name": "Arctic Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [13, 25, 93]
-		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [-1] and [-0.7] and humidity between [-1] and [1]","Ocean"]
+		"name": "Lukewarm Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [25, 97, 191]
+		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [-0.2] and [0.6] and humidity between [-1] and [1]","Ocean"]
+	},
+	{
+		"name": "Warm Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [23, 122, 228]
+		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [0.6] and [1] and humidity between [-1] and [1]","Ocean"]
 	},
 	{
 		"name": "Arctic Coast","type": "Water","food": 1,"movementCost": 1,"RGB": [0, 75, 178],
@@ -163,4 +163,19 @@
         "name": "River","type": "TerrainFeature","movementCost": 0,
         "uniques": ["Doesn't generate naturally", "Excluded from map editor"],
     },
+	{
+		"name": "Floodplain",
+		"type": "TerrainFeature",
+		"food": 2,
+		"movementCost": 1,
+		"overrideStats": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Desert","Plains","Tundra"],
+		"uniques": [
+			"[+1 Food] <in [Desert] tiles>",
+			"Always Fertility [5] for Map Generation",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations",
+		]
+	},
 ]
