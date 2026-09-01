@@ -1,5 +1,5 @@
 [
-	{"name": "Fish", "resourceType": "Bonus","improvement": "Fishing Boats", "improvementStats": {"food": 2},"terrainsCanBeFoundOn": ["Coast"]},
+	{"name": "Fish", "resourceType": "Bonus","improvement": "Fishing Boats", "improvementStats": {"food": 2},"terrainsCanBeFoundOn": ["Lakes","Warm Coast","Lukewarm Coast","Cold Coast","Actic Coast"]},
     {"name": "Wheat", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"production": 1}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": ["Grain"]},
 	{"name": "Rice", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"food": 1}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": ["Grain"]},
 	{"name": "Maize", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": ["Grain"]},
