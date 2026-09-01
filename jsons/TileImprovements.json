@@ -25,7 +25,8 @@
 	},
     //Standard Improvements
 	{
-		"name": "Fishing Boats","terrainsCanBeBuiltOn": ["Coast"],"turnsToBuild": 7, "techRequired": "Fishing",
+		"name": "Fishing Boats","turnsToBuild": 7, "techRequired": "Fishing",
+		"terrainsCanBeBuiltOn": ["Lakes","Warm Coast","Lukewarm Coast","Cold Coast","Arctic Coast","Warm Ocean","Lukewarm Ocean","Cold Ocean","Arctic Ocean"],
 		"uniques": ["Can only be built to improve a resource","[+1 Gold] <after discovering [Maritime Industry]>","Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "F"
 	},
