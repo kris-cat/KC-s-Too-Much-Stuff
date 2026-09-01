@@ -178,4 +178,9 @@
 			"Considered [Desirable] when determining start locations",
 		]
 	},
+	{
+		"name": "Ice","type": "TerrainFeature","impassable": true,"overrideStats": true,
+		"occursOn": ["Lakes","Warm Coast","Lukewarm Coast","Cold Coast","Arctic Coast","Warm Ocean","Lukewarm Ocean","Cold Ocean","Arctic Ocean"],
+		"uniques": ["Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]","[-1] to Fertility for Map Generation","Considered [Undesirable] when determining start locations"]
+	},
 ]
