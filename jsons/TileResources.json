@@ -1,5 +1,6 @@
 [
-	{"name": "Fish", "resourceType": "Bonus","improvement": "Fishing Boats", "improvementStats": {"food": 2},"terrainsCanBeFoundOn": ["Lakes","Warm Coast","Lukewarm Coast","Cold Coast","Actic Coast"]},
+	{"name": "Fish", "resourceType": "Bonus","improvement": "Fishing Boats", "improvementStats": {"food": 2},
+		"terrainsCanBeFoundOn": ["Lakes","Warm Coast","Lukewarm Coast","Cold Coast","Arctic Coast","Warm Ocean","Lukewarm Ocean","Cold Ocean","Arctic Ocean"]},
     {"name": "Wheat", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"production": 1}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": ["Grain"]},
 	{"name": "Rice", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"food": 1}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": ["Grain"]},
 	{"name": "Maize", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": ["Grain"]},
@@ -12,8 +13,10 @@
 	{"name": "Gems","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Forest","Hill"],"uniques": []},
 	{"name": "Gold Ore","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 2, "production": -1},"terrainsCanBeFoundOn": ["Grassland","Hill","Forest"],"uniques": []},
 	{"name": "Silver","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Hill","Grassland",],"uniques": []},
-	{"name": "Whales","resourceType": "Luxury","gold": 1,"improvement": "Fishing Boats","improvementStats": {"food": 2},"terrainsCanBeFoundOn": ["Coast","Ocean"],"uniques": []},
-	{"name": "Pearls","resourceType": "Luxury","gold": 1,"improvement": "Fishing Boats","improvementStats": {"gold": 2},"terrainsCanBeFoundOn": ["Coast"],"uniques": []},
+	{"name": "Whales","resourceType": "Luxury","gold": 1,"improvement": "Fishing Boats","improvementStats": {"food": 2},
+		"terrainsCanBeFoundOn": ["Lakes","Warm Coast","Lukewarm Coast","Cold Coast","Arctic Coast","Warm Ocean","Lukewarm Ocean","Cold Ocean","Arctic Ocean"],"uniques": []},
+	{"name": "Pearls","resourceType": "Luxury","gold": 1,"improvement": "Fishing Boats","improvementStats": {"gold": 2},
+		"terrainsCanBeFoundOn": ["Lakes","Warm Coast","Lukewarm Coast","Cold Coast","Arctic Coast","Warm Ocean","Lukewarm Ocean","Cold Ocean","Arctic Ocean"],"uniques": []},
 
 	{"name": "Furs","resourceType": "Luxury","uniques": ["Doesn't generate naturally","Excluded from map editor"]},
     {
