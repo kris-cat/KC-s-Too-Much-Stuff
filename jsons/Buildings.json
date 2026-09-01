@@ -62,7 +62,7 @@
 	//Classical Era Buildings Column 5//
 	{
 		"name": "Lighthouse","maintenance": 1,"requiredTech": "Celestial Navigation"
-		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]","[+1 Food] from [Coast] tiles [in this city]"],
+		"uniques": ["Must be next to [Coastal Water]", "[+1 Food] from [Ocean] tiles [in this city]","[+1 Food] from [Coastal Water] tiles [in this city]"],
 	},
 	//Column 6//
 	{
@@ -120,7 +120,7 @@
 	//World Wonders - Classical Era//
 	{
 		"name": "The Great Lighthouse","isWonder": true,"culture": 1,"requiredTech": "Celestial Navigation",
-		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>","[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
+		"uniques": ["Must be next to [Coastal Water]", "[+1] Movement <for [{Military} {Water}] units>","[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
 	},
 	{
 		"name": "Great Wall","isWonder": true,"culture": 3,"requiredTech": "Engineering",
