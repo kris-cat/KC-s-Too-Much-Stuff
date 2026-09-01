@@ -1,26 +1,19 @@
 [
 	{
-		"name": "Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [43, 87, 151]
-		"uniques": ["Occurs at temperature between [-1] and [-0.7] and humidity between [0] and [1]","Excluded from map editor",
-			"Becomes [Arctic Ocean] when adjacent to [Arctic Ocean]","Becomes [Cold Ocean] when adjacent to [Cold Ocean]",
-			"Becomes [Lukewarm Ocean] when adjacent to [Lukewarm Ocean]","Becomes [Warm Ocean] when adjacent to [Warm Ocean]",
-			"Will not be displayed in Civilopedia","Ocean"]
-	},
-	{
 		"name": "Arctic Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [13, 25, 93]
-		"uniques": ["Occurs at temperature between [-1] and [-0.7] and humidity between [0] and [1]","Ocean"]
+		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [-1] and [-0.7] and humidity between [-1] and [1]","Ocean"]
 	},
 	{
 		"name": "Cold Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [6, 60, 131]
-		"uniques": ["Occurs at temperature between [-0.7] and [-0.2] and humidity between [0] and [1]","Ocean"]
+		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [-0.7] and [-0.2] and humidity between [-1] and [1]","Ocean"]
 	},
 	{
 		"name": "Lukewarm Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [25, 97, 191]
-		"uniques": ["Occurs at temperature between [-0.2] and [0.6] and humidity between [0] and [1]","Ocean"]
+		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [-0.2] and [0.6] and humidity between [-1] and [1]","Ocean"]
 	},
 	{
 		"name": "Warm Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [23, 122, 228]
-		"uniques": ["Occurs at temperature between [0.6] and [1] and humidity between [0] and [1]","Ocean"]
+		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [0.6] and [1] and humidity between [-1] and [1]","Ocean"]
 	},
 	{
 		"name": "Arctic Coast","type": "Water","food": 1,"movementCost": 1,"RGB": [0, 75, 178],
