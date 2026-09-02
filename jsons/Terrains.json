@@ -77,7 +77,7 @@
             "Considered [Undesirable] when determining start locations",
 			"Becomes [Floodplain] when adjacent to [River]",
 			"Becomes [Arctic Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Arctic Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Arctic Highland] tiles>"
+			"Becomes [Arctic Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [3] to [6] neighboring [Hill] tiles>"
 		]
 	},
 	{
@@ -88,7 +88,7 @@
 			"Occurs at temperature between [-0.4] and [-0.2] and humidity between [0] and [1]",
 			"Occurs at temperature between [-0.2] and [0.2] and humidity between [0] and [0.5]",
 			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Temperate Highland] tiles>"
+			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [3] to [6] neighboring [Hill] tiles>"
 		]
 	},
 	{
@@ -98,7 +98,7 @@
 			"Occurs at temperature between [0.2] and [0.5] and humidity between [0] and [1]",
 			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [1]",
 			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Temperate Highland] tiles>"
+			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [3] to [6] neighboring [Hill] tiles>"
 		]
     },
 	{
@@ -109,7 +109,7 @@
 			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.1]",
 			"Becomes [Floodplain] when adjacent to [River]",
 			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Arid Highland] tiles>"
+			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [3] to [6] neighboring [Hill] tiles>"
 		]
     },
 	{
@@ -119,7 +119,7 @@
 			"Occurs at temperature between [0.8] and [0.9] and humidity between [0] and [0.2]",
 			"Becomes [Floodplain] when adjacent to [River]",
 			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Arid Highland] tiles>"
+			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [3] to [6] neighboring [Hill] tiles>"
 		]
     },
 	{
@@ -127,7 +127,7 @@
         "uniques": [
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.5] and [1]",
 			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Tropical Highland] tiles>"
+			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [3] to [6] neighboring [Hill] tiles>"
 		]
     },
 	{
@@ -136,7 +136,7 @@
 			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.5] and [1]",
 			"Occurs at temperature between [0.9] and [1] and humidity between [0.1] and [1]",
 			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Tropical Highland] tiles>"
+			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [3] to [6] neighboring [Hill] tiles>"
 		]
     },
 	{
