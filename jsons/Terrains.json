@@ -20,24 +20,28 @@
 		"name": "Arctic Coast","type": "Water","food": 1,"movementCost": 1,"RGB": [0, 75, 178],
 		"uniques": ["[+2] to Fertility for Map Generation","Considered [Desirable] when determining start locations <on water maps>",
 			"Occurs at temperature between [-1] and [-0.7] and humidity between [0] and [1]",
+			"Becomes [Rocky Shore] when adjacent to [Mountain]","Becomes [Rocky Shore] when adjacent to [Hill]",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Coastal Water"]
 	},
 	{
 		"name": "Cold Coast","type": "Water","food": 1,"movementCost": 1,"RGB": [6, 106, 214],
 		"uniques": ["[+2] to Fertility for Map Generation","Considered [Desirable] when determining start locations <on water maps>",
 			"Occurs at temperature between [-0.7] and [-0.2] and humidity between [0] and [1]",
+			"Becomes [Rocky Shore] when adjacent to [Mountain]","Becomes [Rocky Shore] when adjacent to [Hill]",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Coastal Water"]
 	},
 	{
 		"name": "Lukewarm Coast","type": "Water","food": 1,"movementCost": 1,"RGB": [10, 138, 232],
 		"uniques": ["[+2] to Fertility for Map Generation","Considered [Desirable] when determining start locations <on water maps>",
 			"Occurs at temperature between [-0.2] and [0.6] and humidity between [0] and [1]",
+			"Becomes [Rocky Shore] when adjacent to [Mountain]","Becomes [Rocky Shore] when adjacent to [Hill]",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Coastal Water"]
 	},
 	{
 		"name": "Warm Coast","type": "Water","food": 1,"movementCost": 1,"RGB": [9, 188, 246],
 		"uniques": ["[+2] to Fertility for Map Generation","Considered [Desirable] when determining start locations <on water maps>",
 			"Occurs at temperature between [0.6] and [1] and humidity between [0] and [1]",
+			"Becomes [Rocky Shore] when adjacent to [Mountain]","Becomes [Rocky Shore] when adjacent to [Hill]",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Coastal Water"]
 	},
 	{
