@@ -24,7 +24,7 @@
 		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]","[+1 Food] from [Rice] tiles [in this city]","[+1 Food] from [Maize] tiles [in this city]",],
 	},
     {
-		"name": "Monument","culture": 2,,"hurryCostModifier": 40,"requiredTech": "Mining",
+		"name": "Monument","culture": 2,"hurryCostModifier": 40,"requiredTech": "Mining",
 		"uniques": []
 	},
 	//Column 2//
