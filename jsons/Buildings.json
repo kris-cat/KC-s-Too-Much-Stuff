@@ -37,7 +37,7 @@
 		"uniques": ["Must be next to [Fresh Water]"],
 	},
 	{
-		"name": "Circus","happiness": 2,"maintenance": 1,"requiredNearbyImprovedResources": ["Camels","Horses"],"requiredTech": "Trapping"
+		"name": "Circus","happiness": 2,"maintenance": 1,"requiredNearbyImprovedResources": ["Camels","Horses"],"requiredTech": "Animal Husbandry"
 	},
 	{
 		"name": "Stone Works","happiness": 2,"production": 1,"maintenance": 1,"requiredTech": "Masonry"
