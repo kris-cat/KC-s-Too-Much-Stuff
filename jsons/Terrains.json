@@ -21,6 +21,7 @@
 		"uniques": ["[+2] to Fertility for Map Generation","Considered [Desirable] when determining start locations <on water maps>",
 			"Occurs at temperature between [-1] and [-0.7] and humidity between [0] and [1]",
 			"Becomes [Rocky Shore] when adjacent to [Mountain]","Becomes [Rocky Shore] when adjacent to [Hill] <with [2] to [6] neighboring [Hill] tiles>",
+			"Becomes [Rocky Shore] when adjacent to [Hill] <with [3] to [6] neighboring [Land] tiles>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Coastal Water"]
 	},
 	{
@@ -28,6 +29,7 @@
 		"uniques": ["[+2] to Fertility for Map Generation","Considered [Desirable] when determining start locations <on water maps>",
 			"Occurs at temperature between [-0.7] and [-0.2] and humidity between [0] and [1]",
 			"Becomes [Rocky Shore] when adjacent to [Mountain]","Becomes [Rocky Shore] when adjacent to [Hill] <with [2] to [6] neighboring [Hill] tiles>",
+			"Becomes [Rocky Shore] when adjacent to [Hill] <with [3] to [6] neighboring [Land] tiles>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Coastal Water"]
 	},
 	{
@@ -35,6 +37,7 @@
 		"uniques": ["[+2] to Fertility for Map Generation","Considered [Desirable] when determining start locations <on water maps>",
 			"Occurs at temperature between [-0.2] and [0.6] and humidity between [0] and [1]",
 			"Becomes [Rocky Shore] when adjacent to [Mountain]","Becomes [Rocky Shore] when adjacent to [Hill] <with [2] to [6] neighboring [Hill] tiles>",
+			"Becomes [Rocky Shore] when adjacent to [Hill] <with [3] to [6] neighboring [Land] tiles>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Coastal Water"]
 	},
 	{
@@ -42,6 +45,7 @@
 		"uniques": ["[+2] to Fertility for Map Generation","Considered [Desirable] when determining start locations <on water maps>",
 			"Occurs at temperature between [0.6] and [1] and humidity between [0] and [1]",
 			"Becomes [Rocky Shore] when adjacent to [Mountain]","Becomes [Rocky Shore] when adjacent to [Hill] <with [2] to [6] neighboring [Hill] tiles>",
+			"Becomes [Rocky Shore] when adjacent to [Hill] <with [3] to [6] neighboring [Land] tiles>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Coastal Water"]
 	},
 	{
