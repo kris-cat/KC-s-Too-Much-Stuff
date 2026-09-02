@@ -18,6 +18,10 @@
 		"name": "Cellar","food": 2,"percentStatBonus": {"food": 5},"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
 		"uniques": [],
 	},
+	{
+		"name": "Potter","production": 1,"gold": 1,"percentStatBonus": {"food": 5},"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
+		"uniques": ["[+1 Gold] from [Clay] tiles [in this city]",],
+	},
     {
 		"name": "Granary","maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Agriculture",
         "requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
@@ -33,8 +37,7 @@
 		"uniques": ["Must be next to [Fresh Water]"],
 	},
 	{
-		"name": "Stable","maintenance": 1,"requiredNearbyImprovedResources": ["Cattle","Horses"],"requiredTech": "Animal Husbandry",
-		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Pasture] tiles [in this city]",],
+		"name": "Circus","happiness": 2,"maintenance": 1,"requiredNearbyImprovedResources": ["Camels","Horses"],"requiredTech": "Trapping"
 	},
 	{
 		"name": "Stone Works","happiness": 2,"production": 1,"maintenance": 1,"requiredTech": "Masonry"
@@ -51,7 +54,22 @@
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 	},
 	{
+		"name": "Stable","maintenance": 1,"requiredNearbyImprovedResources": ["Camels","Horses"],"requiredTech": "Horseback Riding",
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Pasture] tiles [in this city]",],
+	},
+	{
+		"name": "Bakery","gold": 1,"food": 2,"hurryCostModifier": 40,"requiredTech": "The Wheel",
+        "requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
+		"uniques": ["[+1 Gold] from [Wheat] tiles [in this city]","[+1 Gold] from [Rice] tiles [in this city]","[+1 Gold] from [Maize] tiles [in this city]",],
+	},
+	{
 		"name": "Smelter","production": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Bronze Working",
-		"uniques": ["[+1 Production] from [Copper] tiles [in this city]","[+1 Production] from [Iron] tiles [in this city]",],
+		"uniques": ["[+1 Production] from [Tin] tiles [in this city]","[+1 Production] from [Copper] tiles [in this city]","[+1 Production] from [Iron] tiles [in this city]",],
+	},
+	//Column 4//
+	{
+		"name": "Tannery","production": 1,"gold": 1,"requiredTech": "Craftsmanship",
+		"requiredNearbyImprovedResources": ["Cattle","Deer",],
+		"uniques": ["Provides [1] [Leather]"]
 	},
 ]
