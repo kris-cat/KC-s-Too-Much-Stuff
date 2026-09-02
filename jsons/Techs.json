@@ -49,4 +49,32 @@
 			},
 		]
     },
+	{
+        "columnNumber": 2,"era": "Ancient Era","techCost": 40,"buildingCost": 50,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Calendar","row": 1,"uniques": ["Unavailable <before discovering [Sailing]> <before discovering [Irrigation]> <hidden from users>"]
+				"civilopediaText": [
+					{"text": "Requires Sailing","link": "Technologies/Sailing"},
+					{"text": "or Irrigation","link": "Technologies/Irrigation"}
+				],
+			},
+			{
+                "name": "Writing","row": 3,"prerequisites": ["Irrigation"],
+				"uniques": ["Enables establishment of embassies <Civilopedia link [Tutorials/Embassies]>"]
+			},
+			{
+                "name": "The Wheel","row": 8,"uniques": ["Unavailable <before discovering [Animal Husbandry]> <before discovering [Masonry]> <hidden from users>"]
+				"civilopediaText": [
+					{"text": "Requires Pottery","link": "Technologies/Animal Husbandry"},
+					{"text": "or Carpentry","link": "Technologies/Masonry"}
+				],
+			},
+			{
+                "name": "Bronze Working","row": 11,"prerequisites": ["Mining"],
+				"uniques": []
+			},
+		]
+    },
+
 ]
