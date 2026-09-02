@@ -6,6 +6,11 @@
 		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable",]
 	},
 	{
+		"name": "Shipwreck",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable",]
+	},
+	{
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Unbuildable"],
