@@ -1,6 +1,26 @@
 [
     //Pantheons//
     {
+        "name": "God-King",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture, +1 Faith, +1 Gold, +1 Production, +1 Science] from every [palace]"]
+    },
+    {
+        "name": "Goddess of Protection",
+        "type": "Pantheon",
+        "uniques": ["[+30]% Strength for cities <when attacking>","[+1 Faith] [in all cities with a garrison]"]
+    },
+    {
+        "name": "God of War",
+        "type": "Pantheon",
+        "uniques": ["Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+    },
+    {
+        "name": "Fertility Rites",
+        "type": "Pantheon",
+        "uniques": ["[+20]% growth [in this city]"]
+    },
+    {
         "name": "Desert Folklore",
         "type": "Pantheon",
         "uniques": ["[+1 Faith] from every [Desert]"]
@@ -54,5 +74,10 @@
         "name": "Stone Circles",
         "type": "Pantheon",
         "uniques": ["[+2 Faith] from every [Quarry]"]
+    },
+    {
+        "name": "Ancestor Worship",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Monument]"]
     },
 ]
