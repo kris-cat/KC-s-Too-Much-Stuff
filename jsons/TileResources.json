@@ -21,13 +21,13 @@
 	{"name": "Furs","resourceType": "Luxury","uniques": ["Doesn't generate naturally","Excluded from map editor"]},
     {
 		"name": "Copper", "resourceType": "Strategic","improvement": "Mine","improvementStats": {"production": 1,"gold": 1},
-		"terrainsCanBeFoundOn": ["Grassland","Hill"],
+		"terrainsCanBeFoundOn": ["Grassland","Hill"],"revealedBy": "Mining",
 		"uniques": ["Guaranteed with Strategic Balance resource option"],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
 		"name": "Iron", "resourceType": "Strategic","improvement": "Mine","improvementStats": {"production": 2},
-		"terrainsCanBeFoundOn": ["Grassland","Hill"],
+		"terrainsCanBeFoundOn": ["Grassland","Hill"],"revealedBy": "Bronze Working",
 		"uniques": ["Guaranteed with Strategic Balance resource option",],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
