@@ -31,7 +31,6 @@
 	//Minerals//
 	{"name": "Tin", "resourceType": "Bonus","improvement": "Mine", "improvementStats": {"production": 2},"terrainsCanBeFoundOn": ["Hill","River"],},
 	{"name": "Quartz", "resourceType": "Bonus","improvement": "Mine", "improvementStats": {"production": 1,"gold": 1},"terrainsCanBeFoundOn": ["Hill","Desert"],},
-	{"name": "Lead", "resourceType": "Bonus","improvement": "Mine", "improvementStats": {"production": 1,"science": 1},"terrainsCanBeFoundOn": ["Hill"],},
 	//Lumber//
 	{"name": "Hardwood", "resourceType": "Bonus","improvement": "Lumber Camp", "improvementStats": {"production": 2},"terrainsCanBeFoundOn": ["Forest","Jungle"],}
 
