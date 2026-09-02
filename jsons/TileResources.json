@@ -1,8 +1,14 @@
 [
 	//Bonus Resources//
 	//Marine Animals//
-	{"name": "Fish", "resourceType": "Bonus","improvement": "Fishing Boats", "improvementStats": {"food": 2},
-		"terrainsCanBeFoundOn": ["Lakes","Warm Coast","Lukewarm Coast","Cold Coast","Arctic Coast","Warm Ocean","Lukewarm Ocean","Cold Ocean","Arctic Ocean"]},
+	{"name": "Salmon", "resourceType": "Bonus","improvement": "Fishing Boats", "improvementStats": {"food": 2},
+		"terrainsCanBeFoundOn": ["Cold Coast","Arctic Coast","Cold Ocean","Arctic Ocean"]},
+	{"name": "Tuna", "resourceType": "Bonus","improvement": "Fishing Boats", "improvementStats": {"food": 2},
+		"terrainsCanBeFoundOn": ["Lukewarm Coast","Warm Coast","Lukewarm Ocean","Warm Ocean"]},
+	{"name": "Mussels", "resourceType": "Bonus","improvement": "Fishing Boats", "improvementStats": {"food": 2},
+		"terrainsCanBeFoundOn": ["Lakes"]},
+	{"name": "Crabs", "resourceType": "Bonus","improvement": "Fishing Boats", "improvementStats": {"gold": 2},
+		"terrainsCanBeFoundOn": ["Warm Coast","Lukewarm Coast","Cold Coast","Warm Ocean","Lukewarm Ocean","Cold Ocean"]},
 	//Grains//
 	{"name": "Wheat", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"production": 1}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": ["Grain"]},
 	{"name": "Rice", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"food": 1}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": ["Grain"]},
@@ -23,9 +29,9 @@
 	{"name": "Peat", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"food": 1,"production": 1}, "terrainsCanBeFoundOn": ["Floodplain"],},
 	{"name": "Clay", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"production": 1,"culture": 1},"terrainsCanBeFoundOn": ["Floodplain"],},
 	//Minerals//
-	{"name": "Tin", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"production": 2},"terrainsCanBeFoundOn": ["Hill","River"],},
-	{"name": "Quartz", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"production": 1,"gold": 1},"terrainsCanBeFoundOn": ["Hill","Desert"],},
-	{"name": "Lead", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"production": 1,"science": 1},"terrainsCanBeFoundOn": ["Hill"],},
+	{"name": "Tin", "resourceType": "Bonus","improvement": "Mine", "improvementStats": {"production": 2},"terrainsCanBeFoundOn": ["Hill","River"],},
+	{"name": "Quartz", "resourceType": "Bonus","improvement": "Mine", "improvementStats": {"production": 1,"gold": 1},"terrainsCanBeFoundOn": ["Hill","Desert"],},
+	{"name": "Lead", "resourceType": "Bonus","improvement": "Mine", "improvementStats": {"production": 1,"science": 1},"terrainsCanBeFoundOn": ["Hill"],},
 	//Lumber//
 	{"name": "Hardwood", "resourceType": "Bonus","improvement": "Lumber Camp", "improvementStats": {"production": 2},"terrainsCanBeFoundOn": ["Forest","Jungle"],}
 
