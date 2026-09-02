@@ -74,44 +74,58 @@ TileSets/FantasyHex/Tiles/Plains
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Snow
+TileSets/FantasyHex/Tiles/Reef
   rotate: false
   xy: 44, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Subtropical
+TileSets/FantasyHex/Tiles/Rocky Shore
   rotate: false
   xy: 84, 148
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Tropical
+TileSets/FantasyHex/Tiles/Snow
   rotate: false
   xy: 4, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Tundra
+TileSets/FantasyHex/Tiles/Subtropical
   rotate: false
   xy: 44, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Warm Coast
+TileSets/FantasyHex/Tiles/Tropical
   rotate: false
   xy: 84, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Warm Ocean
+TileSets/FantasyHex/Tiles/Tundra
   rotate: false
   xy: 4, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Warm Coast
+  rotate: false
+  xy: 44, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Warm Ocean
+  rotate: false
+  xy: 84, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
