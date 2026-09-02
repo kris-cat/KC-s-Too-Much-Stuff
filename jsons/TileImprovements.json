@@ -55,44 +55,38 @@
 		"shortcutKey": "M"
 	},
 	{
-		"name": "Plantation","gold": 2,"turnsToBuild": 9,
+		"name": "Plantation","gold": 2,"turnsToBuild": 9,"techRequired": "Irrigation",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "P"
 	},
 	{
-		"name": "Pasture","turnsToBuild": 7,
+		"name": "Pasture","turnsToBuild": 7,"techRequired": "Animal Husbandry",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "P"
 	},
 	{
-		"name": "Quarry","production": 1,"turnsToBuild": 7,
+		"name": "Quarry","production": 1,"turnsToBuild": 7,"techRequired": "Masonry",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "Q"
 	},
 	{
-		"name": "Terrace farm","food": 1,"turnsToBuild": 9,"terrainsCanBeBuiltOn": ["Hill"],
+		"name": "Terrace farm","food": 1,"turnsToBuild": 9,"terrainsCanBeBuiltOn": ["Hill"],"techRequired": "Bronze Working",
 		"uniques": ["[+1 Food] from [Fresh water] tiles <after discovering [The Plough]>","Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "F"
 	},
 	//Road Improvements
 	{
-		"name": "Road",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
-		
+		"name": "Road","terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 4,"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
 	},
 	{
-		"name": "Remove Road",
-		"turnsToBuild": 2,
+		"name": "Remove Road","turnsToBuild": 2,
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 
 	{
-		"name": "Remove Forest",
-		"turnsToBuild": 4,
-		"techRequired": "Carpentry",
+		"name": "Remove Forest","turnsToBuild": 4,"techRequired": "Carpentry",
 		"uniques": ["Can be built outside your borders","Excluded from map editor"],
 		"shortcutKey": "X",
         "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
