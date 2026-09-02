@@ -85,7 +85,7 @@
         [
 			{
                 "name": "Mathematics","row": 3,"prerequisites": ["Writing"],
-				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements"]
+				"uniques": ["Enables Research agreements"]
 			},
 			{
                 "name": "Craftsmanship","row": 8,"uniques": ["Unavailable <before discovering [The Wheel]> <before discovering [Bronze Working]> <hidden from users>"]
