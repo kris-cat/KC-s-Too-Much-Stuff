@@ -157,7 +157,8 @@
 	},
 	//Elevation
 	{
-		"name": "Hill","type": "TerrainFeature","production": 1,"movementCost": 2,"defenceBonus": 0.25,"RGB": [105,125,72],"occursOn": ["Snow","Tundra","Continental","Grassland","Plains","Desert","Subtropical","Tropical"],
+		"name": "Hill","type": "TerrainFeature","production": 1,"movementCost": 2,"defenceBonus": 0.25,"RGB": [105,125,72],
+		"occursOn": ["Snow","Tundra","Continental","Grassland","Plains","Desert","Subtropical","Tropical","Arctic Highland","Temperate Highland","Tropical Highland","Arid Highland"],
 		"uniques": ["Rough terrain",
 			"[+5] Strength for cities built on this terrain",
 			"Has an elevation of [1] for visibility calculations",
