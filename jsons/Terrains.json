@@ -149,7 +149,7 @@
 	{
 		"name": "Rocky Shore","type": "TerrainFeature","production": 1,"movementCost": 2,"defenceBonus": 0.25,
 		"occursOn": ["Arctic Coast","Cold Coast","Lukewarm Coast","Warm Coast"],
-		"uniques": ["Occurs in groups around high elevations","[+4] to Fertility for Map Generation",]
+		"uniques": ["Rough terrain","Occurs in groups around high elevations","[+4] to Fertility for Map Generation","Blocks line-of-sight from tiles at same elevation",]
 	},
 	//Vegetation
 	{
@@ -173,12 +173,22 @@
 	},
 	//Rare Features
 	{
+		"name": "Oasis","type": "TerrainFeature","food": 3,"gold": 1,"movementCost": 1,"unbuildable": true,"defenceBonus": -0.1,
+		"occursOn": ["Desert"],
+		"uniques": ["Fresh water", "Rare feature","Always Fertility [4] for Map Generation","Considered [Food] when determining start locations","Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Seagrass","type": "TerrainFeature","food": -1,"gold": 2,"movementCost": 2,"unbuildable": true,
+		"occursOn": ["Lukewarm Coast","Warm Coast"],
+		"uniques": ["Vegetation","[25]% Chance to be destroyed by nukes","Considered [Food] when determining start locations",]
+	},
+	{
 		"name": "Reef","type": "TerrainFeature","food": 1,"production": 1,"movementCost": 1,"defenceBonus": 0.15,
 		"occursOn": ["Warm Coast"],
 		"uniques": ["Rare feature","Occurs in groups of [1] to [4] tiles","[+4] to Fertility for Map Generation",]
 	},
 	{
-		"name": "Atoll","type": "TerrainFeature","food": 2,"production": 1,"movementCost": 1,"occursOn": ["Arctic Ocean","Cold Ocean","Lukewarm Ocean","Warm Ocean"],
+		"name": "Atoll","type": "TerrainFeature","food": 2,"production": 1,"movementCost": 1,"defenceBonus": 0.25,"occursOn": ["Lukewarm Ocean","Warm Ocean"],
 		"uniques": ["Rare feature"]
 	},
 	//Misc
