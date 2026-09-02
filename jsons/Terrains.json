@@ -185,7 +185,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Continental","Grassland","Plains","Subtropical","Hill"],
+		"occursOn": ["Tundra","Continental","Grassland","Plains","Subtropical","Hill","Arctic Highland","Temperate Highland"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 					"Blocks line-of-sight from tiles at same elevation",
@@ -203,7 +203,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Subtropical","Tropical"],
+		"occursOn": ["Subtropical","Tropical","Hill","Tropical Highland"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
