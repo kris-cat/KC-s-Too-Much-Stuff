@@ -1,7 +1,11 @@
 [
     {
-		"name": "Spectator",
-		"outerColor": [255,255,255]
+		"name": "Spectator","outerColor": [255,255,255]
+		"uniqueName": "Mod Features",
+		"uniques": [
+			"Comment []",
+			"Comment []",,
+		],
 	},
 	{
 		"name": "Arabia","leaderName": "Al-Mansur","adjective": ["Arabian"],"startBias": ["Desert"],"preferredVictoryType": "Domination",
