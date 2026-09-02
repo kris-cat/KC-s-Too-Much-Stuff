@@ -64,6 +64,10 @@
 				"uniques": ["Enables establishment of embassies <Civilopedia link [Tutorials/Embassies]>"]
 			},
 			{
+                "name": "Horseback Riding","row": 6,"prerequisites": ["Animal Husbandry"],
+				"uniques": []
+			},
+			{
                 "name": "The Wheel","row": 8,"uniques": ["Unavailable <before discovering [Animal Husbandry]> <before discovering [Masonry]> <hidden from users>"]
 				"civilopediaText": [
 					{"text": "Requires Pottery","link": "Technologies/Animal Husbandry"},
@@ -82,10 +86,6 @@
 			{
                 "name": "Mathematics","row": 3,"prerequisites": ["Writing"],
 				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements"]
-			},
-			{
-                "name": "Horseback Riding","row": 6,"prerequisites": ["Animal Husbandry"],
-				"uniques": []
 			},
 			{
                 "name": "Craftsmanship","row": 8,"uniques": ["Unavailable <before discovering [The Wheel]> <before discovering [Bronze Working]> <hidden from users>"]
