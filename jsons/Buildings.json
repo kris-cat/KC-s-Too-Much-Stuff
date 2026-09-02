@@ -15,21 +15,42 @@
 	},
     //Ancient Era Buildings Column 1//
 	{
-		"name": "Cellar","food": 2,"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
+		"name": "Cellar","food": 2,"percentStatBonus": {"food": 5},"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
 		"uniques": [],
 	},
     {
-		"name": "Granary","hurryCostModifier": 40,"requiredTech": "Agriculture",
+		"name": "Granary","maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Agriculture",
         "requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
 		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]","[+1 Food] from [Rice] tiles [in this city]","[+1 Food] from [Maize] tiles [in this city]",],
 	},
     {
-		"name": "Monument","culture": 2,"hurryCostModifier": 40,"requiredTech": "Mining",
+		"name": "Monument","culture": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Mining",
 		"uniques": []
 	},
 	//Column 2//
+	{
+		"name": "Garden","happiness": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Irrigation",
+		"uniques": ["Must be next to [Fresh Water]"],
+	},
+	{
+		"name": "Stable","maintenance": 1,"requiredNearbyImprovedResources": ["Cattle","Horses"],"requiredTech": "Animal Husbandry",
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Pasture] tiles [in this city]",],
+	},
+	{
+		"name": "Stone Works","happiness": 2,"production": 1,"maintenance": 1,"requiredTech": "Masonry"
+		"requiredNearbyImprovedResources": ["Stone"],
+		"uniques": ["[+1 Production] from [Stone] tiles [in this city]"],
+	},
 	//Column 3//
-	 {
+	{
+		"name": "Shrine","faith": 2,"cost": 40,"maintenance": 1,"requiredTech": "Calendar",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Library","hurryCostModifier": 25,"maintenance": 1,"requiredTech": "Writing"
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+	},
+	{
 		"name": "Smelter","production": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Bronze Working",
 		"uniques": ["[+1 Production] from [Copper] tiles [in this city]","[+1 Production] from [Iron] tiles [in this city]",],
 	},
