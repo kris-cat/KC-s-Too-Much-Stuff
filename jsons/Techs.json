@@ -76,5 +76,29 @@
 			},
 		]
     },
+	{
+        "columnNumber": 3,"era": "Ancient Era","techCost": 50,"buildingCost": 75,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Mathematics","row": 3,"prerequisites": ["Writing"],
+				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements"]
+			},
+			{
+                "name": "Horseback Riding","row": 6,"prerequisites": ["Animal Husbandry"],
+				"uniques": []
+			},
+			{
+                "name": "Craftsmanship","row": 8,"uniques": ["Unavailable <before discovering [The Wheel]> <before discovering [Bronze Working]> <hidden from users>"]
+				"civilopediaText": [
+					{"text": "Requires The Wheel","link": "Technologies/The Wheel"},
+					{"text": "or Bronze Working","link": "Technologies/Bronze Working"}
+				],
+			},
+			{
+                "name": "Iron Working","row": 11,"prerequisites": ["Bronze Working"],
+				"uniques": []
+			},
+		]
+    },
 
 ]
