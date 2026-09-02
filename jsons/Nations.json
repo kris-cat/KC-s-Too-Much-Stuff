@@ -4,29 +4,27 @@
 		"outerColor": [255,255,255]
 	},
 	{
-		"name": "America","leaderName": "Teddy Roosevelt","adjective": ["American"],"startBias": ["Grassland"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "President Washington, we salute you and the proud American civilization! Freed from the British dominion in the 18th century, then cleansed and reborn after a terrible civil war, the United States nation was ready to play its great role in the 20th century. At the height of its power, triumphant after two terrible world wars, United States of America, a land of immigration, opportunities, optimism and determination, has risen above all other weakening nations, unable to equal such power.",
-        "startIntroPart2": "President Washington, will you show to the world the legitimacy of the American way of life, and spread the flame of liberty to all mankind? Will your new empire shine through the ages of history?",
-        "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!","attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
-		"defeated": "The day...is yours. I hope you will be merciful in your triumph.","introduction": "The people of the United States of America welcome you.",
-		"neutralHello": "Good day.","hateHello": "Well?","tradeRequest": "Is the following trade of interest to you?",
-		"outerColor": [ 28,51,119],"innerColor": [255,255,255],"uniqueName": "American Nation Abilities",
+		"name": "Arabia","leaderName": "Al-Mansur","adjective": ["Arabian"],"startBias": ["Desert"],"preferredVictoryType": "Domination",
+        "startIntroPart1": "Blessings of the Great God be upon you, O great caliph Harun al-Rashid, leader of the mighty Arabian people! The Muslim Empire, the Caliphate, born from chaos after the death of the prophet Muhammad in 632 AD, intended to apply the rule of God to all Earth. And by the will of God, the caliphate reached its full power, ruling Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia, to even surpass the Great Roman Empire. The arts and sciences were a holy gift of Arabia during the Middle Ages, as the infidel lands of Europe delved deep into ignorance and chaos. Lasting for six hundred years, the Caliphate finally fell before the Mongols, the plague of the civilized world.",
+        "startIntroPart2": "Great Caliph Harun al Rashid, all Arabian people long for greatness! Arabia must be once again the land of arts and knowledge, which under the radiant law of God, will fear no enemy! Will your new empire shine through the ages of history?",
+        "declaringWar": "The world will be more beautiful without you. Prepare for war.","attacked": "Fool! You will soon regret dearly! I swear it!","defeated": "You have won, congratulations. My palace is now in your possession, and I beg that you care well for the peacock.","denounced": "Well done, my friend. Now I look forward to our next battle even more!",
+		"introduction": "Welcome foreigner, I am Harun Al-Rashid, Caliph of the Arabs. Come and tell me about your empire.",
+		"neutralHello": "Peace be upon you.","hateHello": "Oh, it's you.","tradeRequest": "Come forth, let's do business.",
+		"outerColor": [253, 218, 2],"innerColor": [21, 132, 102],"uniqueName": "Arabian Nation Abilities",
 		"uniques": [
-			"Starts with [Fishing]",
-			"Starts with [Agriculture]",
+			"Starts with [Pottery]",
+			"Starts with [Mining]",
 			"Comment []",
-			"Comment [Nation Ability: American Exceptionalism]",
+			"Comment [Nation Ability: Islamic Golden Age]",
 			"Comment []",
-            "Comment [Leader Ability: Bull Moose President]",
+            "Comment [Leader Ability: Founder of the Round City]",
 		],
-		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
-			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
-			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
-			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
-			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
-			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
-        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
-	},
+		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
+			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
+			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
+        "spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
+
+    },
 	{
 		"name": "Babylon","leaderName": "Nebuchadnezzar II","adjective": ["Babylonian"],"startBias": ["Grassland"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
@@ -71,28 +69,6 @@
 			"Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"
 		]
 	},
-	{
-		"name": "England","leaderName": "Victoria","adjective": ["English"],"startBias": ["Grassland"],"preferredVictoryType": "Domination",
-        "startIntroPart1": "Long live to Your Highness, Queen Elizabeth Gloriana, leader and protector of the glorious England! Through history, enduring many invasions, England strengthened its will, playing smartly with diplomacy, cunning, and military power, to eventually rose as one of the most dominant Empires the world has ever known. Their matchless navy, brilliant scientists and artists, and powerful merchants, have shaped the known world for centuries.",
-        "startIntroPart2": "Queen Elizabeth, will England cast once more its brightness upon all lands and seas of the world? Will your new empire shine through the ages of history?",
-        "declaringWar": "By the grace of God, your days are numbered.","attacked": "We shall never surrender.","defeated": "You have triumphed over us. The day is yours.","denounced": "Your reckless pride will destroy you if you're not careful.",
-		"introduction": "We are pleased to meet you.","neutralHello": "Hello, again.","hateHello": "Oh, it's you!","tradeRequest": "Would you be interested in a trade agreement with England?",
-		"outerColor": [109, 2, 0],"innerColor": [255, 255, 255],"uniqueName": "English Nation Abilities",
-		"uniques": [
-			"Starts with [Fishing]",
-			"Starts with [Pottery]",
-			"Comment []",
-			"Comment [Nation Ability: Britannia Rules the Waves]",
-			"[+1] Movement <for [Water] units> <hidden from users>",
-			"Comment []",
-			"Comment [Leader Ability: Workshop of the  World]",
-		],
-		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
-			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
-			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
-			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
-        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
-    },
 	{
 		"name": "Inca","leaderName": "Pachacuti","adjective": ["Incan"],"startBias": ["Mountain"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
