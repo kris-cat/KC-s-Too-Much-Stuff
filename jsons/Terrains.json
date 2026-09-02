@@ -141,19 +141,19 @@
     },
 	{
 		"name": "Arctic Highland","type": "Land","food": 1,"movementCost": 1,"RGB": [173, 132, 99], 
-		"uniques": []
+		"uniques": ["Doesn't generate naturally"]
 	},
 	{
 		"name": "Temperate Highland","type": "Land","food": 1,"production": 1,"movementCost": 1,"RGB": [21, 132, 90], 
-		"uniques": []
+		"uniques": ["Doesn't generate naturally"]
 	},
 	{
 		"name": "Tropical Highland","type": "Land","food": 2,"movementCost": 1,"RGB": [45, 153, 49], 
-		"uniques": []
+		"uniques": ["Doesn't generate naturally"]
 	},
 	{
 		"name": "Arid Highland","type": "Land","production": 1,"movementCost": 1,"RGB": [236, 177, 59], 
-		"uniques": []
+		"uniques": ["Doesn't generate naturally"]
 	},
 	//Elevation
 	{
