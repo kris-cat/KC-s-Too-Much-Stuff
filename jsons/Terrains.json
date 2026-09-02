@@ -117,7 +117,7 @@
 			"Occurs at temperature between [0.9] and [1] and humidity between [0.1] and [1]",
 		]
     },
-	//Hill and Mountains
+	//Elevation
 	{
 		"name": "Hill","type": "TerrainFeature","production": 1,"food": -1,"movementCost": 2,"defenceBonus": 0.25,"RGB": [105,125,72],"occursOn": ["Snow","Tundra","Continental","Grassland","Plains","Desert","Subtropical","Tropical"],
 		"uniques": ["Rough terrain",
@@ -137,6 +137,11 @@
             "Units ending their turn on this terrain take [50] damage",
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations"]
+	},
+	{
+		"name": "Reef","type": "TerrainFeature","food": 1,"production": 1,"movementCost": 1,"defenceBonus": 0.15,
+		"occursOn": ["Warm Coast"],
+		"uniques": ["Rare feature","Occurs in groups around high elevations","[+4] to Fertility for Map Generation",]
 	},
 	//Vegetation
 	{
