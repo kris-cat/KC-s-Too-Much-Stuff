@@ -139,9 +139,9 @@
             "Considered [Undesirable] when determining start locations"]
 	},
 	{
-		"name": "Reef","type": "TerrainFeature","food": 1,"production": 1,"movementCost": 1,"defenceBonus": 0.15,
-		"occursOn": ["Warm Coast"],
-		"uniques": ["Rare feature","Occurs in groups around high elevations","[+4] to Fertility for Map Generation",]
+		"name": "Rocky Shore","type": "TerrainFeature","production": 1,"movementCost": 2,"defenceBonus": 0.25,
+		"occursOn": ["Arctic Coast","Cold Coast","Lukewarm Coast","Warm Coast"],
+		"uniques": ["Occurs in groups around high elevations","[+4] to Fertility for Map Generation",]
 	},
 	//Vegetation
 	{
@@ -162,6 +162,12 @@
 					"Considered [Production] when determining start locations",
 					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
+	},
+	//Rare Features
+	{
+		"name": "Reef","type": "TerrainFeature","food": 1,"production": 1,"movementCost": 1,"defenceBonus": 0.15,
+		"occursOn": ["Warm Coast"],
+		"uniques": ["Rare feature","Occurs in groups of [1] to [4] tiles","[+4] to Fertility for Map Generation",]
 	},
 	//Misc
 	{
