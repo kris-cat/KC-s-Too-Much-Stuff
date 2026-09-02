@@ -177,6 +177,10 @@
 		"occursOn": ["Warm Coast"],
 		"uniques": ["Rare feature","Occurs in groups of [1] to [4] tiles","[+4] to Fertility for Map Generation",]
 	},
+	{
+		"name": "Atoll","type": "TerrainFeature","food": 2,"production": 1,"movementCost": 1,"occursOn": ["Arctic Ocean","Cold Ocean","Lukewarm Ocean","Warm Ocean"],
+		"uniques": ["Rare feature"]
+	},
 	//Misc
 	{
         "name": "River","type": "TerrainFeature","movementCost": 0,
