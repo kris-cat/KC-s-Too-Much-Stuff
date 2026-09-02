@@ -1,0 +1,58 @@
+[
+    //Pantheons//
+    {
+        "name": "Desert Folklore",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Desert]"]
+    },
+    {
+        "name": "Dance of the Aurora",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Desert]"]
+    },
+    {
+        "name": "Earth Goddess",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Mountain]"]
+    },
+    {
+        "name": "Sacred Path",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Jungle]"]
+    },
+    {
+        "name": "River Goddess",
+        "type": "Pantheon",
+        "uniques": ["[+2 Happiness] in cities on [River] tiles"]
+    },
+    {
+        "name": "God of Craftsmen",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production, +1 Faith] from every [Strategic resource]"]
+    },
+    {
+        "name": "God of the Open Sky",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Pasture]"]
+    },
+    {
+        "name": "Goddess of Festivals",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Plantation]"]
+    },
+    {
+        "name": "Goddess of the Hunt",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food, +1 Production] from every [Camp]"]
+    },
+    {
+        "name": "God of the Sea",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from every [Fishing Boats]"]
+    },
+    {
+        "name": "Stone Circles",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Quarry]"]
+    },
+]
