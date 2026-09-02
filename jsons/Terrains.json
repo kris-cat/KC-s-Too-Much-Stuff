@@ -76,6 +76,8 @@
 			"Always Fertility [-1] for Map Generation",
             "Considered [Undesirable] when determining start locations",
 			"Becomes [Floodplain] when adjacent to [River]",
+			"Becomes [Arctic Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
+			"Becomes [Arctic Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Arctic Highland] tiles>"
 		]
 	},
 	{
@@ -85,6 +87,8 @@
 			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0.3] and [1]",
 			"Occurs at temperature between [-0.4] and [-0.2] and humidity between [0] and [1]",
 			"Occurs at temperature between [-0.2] and [0.2] and humidity between [0] and [0.5]",
+			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
+			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Temperate Highland] tiles>"
 		]
 	},
 	{
@@ -93,6 +97,8 @@
 			"Occurs at temperature between [-0.2] and [0.2] and humidity between [0.5] and [1]",
 			"Occurs at temperature between [0.2] and [0.5] and humidity between [0] and [1]",
 			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [1]",
+			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
+			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Temperate Highland] tiles>"
 		]
     },
 	{
@@ -102,6 +108,8 @@
 			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.5]",
 			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.1]",
 			"Becomes [Floodplain] when adjacent to [River]",
+			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
+			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Arid Highland] tiles>"
 		]
     },
 	{
@@ -110,12 +118,16 @@
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0] and [0.5]",
 			"Occurs at temperature between [0.8] and [0.9] and humidity between [0] and [0.2]",
 			"Becomes [Floodplain] when adjacent to [River]",
+			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
+			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Arid Highland] tiles>"
 		]
     },
 	{
 		"name": "Subtropical","type": "Land","food": 1,"production": 1,"movementCost": 1,"RGB": [163, 236, 105],
         "uniques": [
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.5] and [1]",
+			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
+			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Tropical Highland] tiles>"
 		]
     },
 	{
@@ -123,11 +135,29 @@
         "uniques": [
 			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.5] and [1]",
 			"Occurs at temperature between [0.9] and [1] and humidity between [0.1] and [1]",
+			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
+			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Tropical Highland] tiles>"
 		]
     },
+	{
+		"name": "Arctic Highland","type": "Land","food": 1,"movementCost": 1,"RGB": [173, 132, 99], 
+		"uniques": []
+	},
+	{
+		"name": "Temperate Highland","type": "Land","food": 1,"production": 1,"movementCost": 1,"RGB": [21, 132, 90], 
+		"uniques": []
+	},
+	{
+		"name": "Tropical Highland","type": "Land","food": 2,"movementCost": 1,"RGB": [45, 153, 49], 
+		"uniques": []
+	},
+	{
+		"name": "Arid Highland","type": "Land","production": 1,"movementCost": 1,"RGB": [236, 177, 59], 
+		"uniques": []
+	},
 	//Elevation
 	{
-		"name": "Hill","type": "TerrainFeature","production": 1,"food": -1,"movementCost": 2,"defenceBonus": 0.25,"RGB": [105,125,72],"occursOn": ["Snow","Tundra","Continental","Grassland","Plains","Desert","Subtropical","Tropical"],
+		"name": "Hill","type": "TerrainFeature","production": 1,"movementCost": 2,"defenceBonus": 0.25,"RGB": [105,125,72],"occursOn": ["Snow","Tundra","Continental","Grassland","Plains","Desert","Subtropical","Tropical"],
 		"uniques": ["Rough terrain",
 			"[+5] Strength for cities built on this terrain",
 			"Has an elevation of [1] for visibility calculations",
