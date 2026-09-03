@@ -25,12 +25,12 @@
 	{"name": "Bison", "resourceType": "Bonus","improvement": "Camp", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Continental","Grassland","Plains"],},
 	//Rocks//
 	{"name": "Stone", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Grassland","Plains"],},
-	{"name": "Obsidian", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"science": 1},"terrainsCanBeFoundOn": ["Hill"],},
 	{"name": "Peat", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"production": 1}, "terrainsCanBeFoundOn": ["Floodplain"],},
 	{"name": "Clay", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"culture": 1},"terrainsCanBeFoundOn": ["Floodplain"],},
 	//Minerals//
 	{"name": "Tin", "resourceType": "Bonus","improvement": "Mine", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Hill","River"],},
 	{"name": "Quartz", "resourceType": "Bonus","improvement": "Mine", "improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Hill","Desert"],},
+	{"name": "Obsidian", "resourceType": "Bonus","improvement": "Mine", "improvementStats": {"science": 1},"terrainsCanBeFoundOn": ["Hill"],},
 	//Lumber//
 	{"name": "Hardwood", "resourceType": "Bonus","improvement": "Lumber Camp", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Forest","Jungle"],}
 
