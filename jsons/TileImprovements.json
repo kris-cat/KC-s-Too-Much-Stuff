@@ -60,7 +60,7 @@
 		"shortcutKey": "P"
 	},
 	{
-		"name": "Pasture","food": 1"turnsToBuild": 7,"techRequired": "Animal Husbandry",
+		"name": "Pasture","food": 1,"turnsToBuild": 7,"techRequired": "Animal Husbandry",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "P"
 	},
