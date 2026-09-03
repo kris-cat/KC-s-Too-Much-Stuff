@@ -25,12 +25,12 @@
 	},
     // Ancient Era Land Units
     {
-		"name": "Warrior","unitType": "Frontline Unit","movement": 2,"strength": 10,"cost": 40,
+		"name": "Warrior","unitType": "Frontline Unit","movement": 1,"strength": 10,"cost": 40,
 		"uniques": [],
 		"attackSound": "nonmetalhit",
 	},
 	{
-		"name": "Slinger","unitType": "Short Ranged Unit","movement": 2,"range": 1,"strength": 7,"rangedStrength": 7,"cost": 35,
+		"name": "Slinger","unitType": "Short Ranged Unit","movement": 1,"range": 1,"strength": 7,"rangedStrength": 7,"cost": 35,
 		"uniques": [],
 		"attackSound": "nonmetalhit",
 	},
@@ -40,17 +40,17 @@
 		"attackSound": "nonmetalhit",
 	},
 	{
-		"name": "Archer","unitType": "Long Ranged Unit","movement": 2,"range": 2,"strength": 7,"rangedStrength": 7,"cost": 40,"requiredTech": "Carpentry",
+		"name": "Archer","unitType": "Long Ranged Unit","movement": 1,"range": 2,"strength": 7,"rangedStrength": 7,"cost": 40,"requiredTech": "Carpentry",
 		"uniques": [],
 		"attackSound": "nonmetalhit",
 	},
 	{
-		"name": "Battering Ram","unitType": "Siege Unit","movement": 2,"strength": 10,"cost": 50,"requiredTech": "Masonry",
+		"name": "Battering Ram","unitType": "Siege Unit","movement": 1,"strength": 10,"cost": 50,"requiredTech": "Masonry",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","[-1] Sight", "Can only attack [City] units"],
 		"attackSound": "nonmetalhit",
 	}
 	{
-		"name": "Spearman","unitType": "Anti-Mobile Unit","movement": 2,"strength": 10,"cost": 50,"requiredTech": "Bronze Working",
+		"name": "Spearman","unitType": "Anti-Mobile Unit","movement": 1,"strength": 10,"cost": 50,"requiredTech": "Bronze Working",
 		"uniques": [],
 		"attackSound": "nonmetalhit",
 	}
