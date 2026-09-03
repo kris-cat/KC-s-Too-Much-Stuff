@@ -38,7 +38,7 @@
 		"shortcutKey": "F"
 	},
     {
-		"name": "Camp","turnsToBuild": 9,"techRequired": "Hunting",
+		"name": "Camp","gold": 1"turnsToBuild": 9,"techRequired": "Hunting",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "C"
 	},
@@ -55,12 +55,12 @@
 		"shortcutKey": "M"
 	},
 	{
-		"name": "Plantation","gold": 2,"turnsToBuild": 9,"techRequired": "Irrigation",
+		"name": "Plantation","gold": 1,"turnsToBuild": 9,"techRequired": "Irrigation",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "P"
 	},
 	{
-		"name": "Pasture","turnsToBuild": 7,"techRequired": "Animal Husbandry",
+		"name": "Pasture","food": 1"turnsToBuild": 7,"techRequired": "Animal Husbandry",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "P"
 	},
@@ -87,6 +87,12 @@
 
 	{
 		"name": "Remove Forest","turnsToBuild": 4,"techRequired": "Carpentry",
+		"uniques": ["Can be built outside your borders","Excluded from map editor"],
+		"shortcutKey": "X",
+        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Jungle","turnsToBuild": 8,"techRequired": "Iron Working",
 		"uniques": ["Can be built outside your borders","Excluded from map editor"],
 		"shortcutKey": "X",
         "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
