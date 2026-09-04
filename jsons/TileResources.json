@@ -34,10 +34,14 @@
 	//Lumber//
 	{"name": "Hardwood", "resourceType": "Bonus","improvement": "Lumber Camp", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Forest","Jungle"],}
 
-	
+	//Luxury Resources
+	//Gemstones//
+	{"name": "Diamond","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Forest","Jungle","Hill"],"uniques": []},
+	{"name": "Jade","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Forest","Hill"],"uniques": []},
+	{"name": "Amber","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Forest","Hill"],"uniques": []},
+	{"name": "Lapis Lazuli","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Hill"],"uniques": []},
 
 	{"name": "Cotton", "resourceType": "Luxury","improvement": "Plantation", "improvementStats": {"gold": 2}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": []},
-	{"name": "Gems","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Forest","Hill"],"uniques": []},
 	{"name": "Gold Ore","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 2, "production": -1},"terrainsCanBeFoundOn": ["Grassland","Hill","Forest"],"uniques": []},
 	{"name": "Silver","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Hill","Grassland",],"uniques": []},
 	{"name": "Whales","resourceType": "Luxury","gold": 1,"improvement": "Fishing Boats","improvementStats": {"food": 2},
